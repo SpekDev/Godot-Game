@@ -13,6 +13,3 @@ A testing repo for godot games before the game jam competition
 ## Deployment
 
 To deploy this project clone the repo and play it in Godot 4.4 game engine.
-
-
-
