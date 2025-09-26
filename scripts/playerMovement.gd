@@ -1,12 +1,27 @@
 extends CharacterBody2D
 
-@export var movementSpeed: int = 200
-@export var jumpForce: int = 600
+@export var movementSpeed: int = 300
+@export var jumpForce: int = 2000
 @export var gravity := 500
 @export var dashForce := 300
 var isDashing :bool = false
+@onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
+@onready var dash_timer: Timer = $"dash timer"
+
+
+
+
 
 func _physics_process(delta: float) -> void:
+	#animations
+	if velocity.x > 1 && is_on_floor() || velocity.x < -1 && is_on_floor():
+		animated_sprite_2d.animation = "run"
+	
+	elif velocity.x == 0 && velocity.y == 0:
+		animated_sprite_2d.animation = "idle"	
+
+	
+	#player movement
 	var direction := Vector2.ZERO
 	
 	if Input.is_action_pressed("right"):
@@ -19,24 +34,30 @@ func _physics_process(delta: float) -> void:
 	
 	if Input.is_action_pressed("up") and is_on_floor():
 		velocity.y = -jumpForce
+		animated_sprite_2d.animation = "jump" #jump animations
 	
 	# Apply gravity
 	if not is_on_floor():
 		velocity.y += gravity * delta
 		
-	if Input.is_action_just_pressed("dash") and direction.x != 0:
+	
+	if Input.is_action_just_pressed("dash") and direction.x != 0 && isDashing != true:
 		dash(direction)
 
 		
 	move_and_slide()
+	
+	#flipping character
+	var isLeft = velocity.x < 0
+	animated_sprite_2d.flip_h = isLeft
 
+#dashing
 func dash(direction: Vector2) -> void:
 	isDashing = true
-	velocity = direction.normalized() * dashForce
-	await get_tree().create_timer(0.5).timeout
+	print(isDashing)
+	velocity = direction * dashForce
+	dash_timer.start()
+
+func _on_dash_timer_timeout() -> void:
 	isDashing = false
-
-
-	
-
-	
+	print(isDashing)
