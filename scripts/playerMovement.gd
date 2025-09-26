@@ -1,9 +1,9 @@
 extends CharacterBody2D
 
 @export var movementSpeed: int = 200
-@export var jumpForce: int = 600
-@export var gravity := 500
-@export var dashForce := 300
+@export var jumpForce: int = 300
+@export var gravity := 800
+@export var dashForce := 500
 var isDashing :bool = false
 
 func _physics_process(delta: float) -> void:
