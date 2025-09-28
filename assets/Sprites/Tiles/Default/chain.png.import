@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dhge54vka48ot"
-path="res://.godot/imported/chain.png-19d34579271b772b239050cf7bee7a10.ctex"
+path="res://.godot/imported/chain.png-a556015dfa9e7b98fea182d867d49484.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Tiles/Default/chain.png"
-dest_files=["res://.godot/imported/chain.png-19d34579271b772b239050cf7bee7a10.ctex"]
+source_file="res://assets/Sprites/Tiles/Default/chain.png"
+dest_files=["res://.godot/imported/chain.png-a556015dfa9e7b98fea182d867d49484.ctex"]
 
 [params]
 

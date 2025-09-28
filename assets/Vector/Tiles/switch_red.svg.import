@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c1y2m27x1b6p1"
-path="res://.godot/imported/switch_red.svg-3b3de8802d3ed184aea63b800dd4a970.ctex"
+path="res://.godot/imported/switch_red.svg-5c24bc615dd43cacfd8545f2d6676ce7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Tiles/switch_red.svg"
-dest_files=["res://.godot/imported/switch_red.svg-3b3de8802d3ed184aea63b800dd4a970.ctex"]
+source_file="res://assets/Vector/Tiles/switch_red.svg"
+dest_files=["res://.godot/imported/switch_red.svg-5c24bc615dd43cacfd8545f2d6676ce7.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ovfc7h88fapm"
-path="res://.godot/imported/character_green_duck.svg-fafa4a432d48237e415bf255f92a5e57.ctex"
+path="res://.godot/imported/character_green_duck.svg-68e09e33a4ed33fdc71154c805dc471b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Characters/character_green_duck.svg"
-dest_files=["res://.godot/imported/character_green_duck.svg-fafa4a432d48237e415bf255f92a5e57.ctex"]
+source_file="res://assets/Vector/Characters/character_green_duck.svg"
+dest_files=["res://.godot/imported/character_green_duck.svg-68e09e33a4ed33fdc71154c805dc471b.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://doruhl85qc1gh"
-path="res://.godot/imported/background_fade_desert.png-a47eee484a3e90aef07c8083feaa4a29.ctex"
+path="res://.godot/imported/background_fade_desert.png-64a7ba6b185f477572fd3c6c2e0d2c06.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Backgrounds/Double/background_fade_desert.png"
-dest_files=["res://.godot/imported/background_fade_desert.png-a47eee484a3e90aef07c8083feaa4a29.ctex"]
+source_file="res://assets/Sprites/Backgrounds/Double/background_fade_desert.png"
+dest_files=["res://.godot/imported/background_fade_desert.png-64a7ba6b185f477572fd3c6c2e0d2c06.ctex"]
 
 [params]
 

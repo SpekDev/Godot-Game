@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c5y6dvm5xyjtq"
-path="res://.godot/imported/ladybug_rest.svg-e79a693a1b7b8c3aaa506b8b51bb1243.ctex"
+path="res://.godot/imported/ladybug_rest.svg-32aa961db880ed5eeb759ee61bf17ce9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Enemies/ladybug_rest.svg"
-dest_files=["res://.godot/imported/ladybug_rest.svg-e79a693a1b7b8c3aaa506b8b51bb1243.ctex"]
+source_file="res://assets/Vector/Enemies/ladybug_rest.svg"
+dest_files=["res://.godot/imported/ladybug_rest.svg-32aa961db880ed5eeb759ee61bf17ce9.ctex"]
 
 [params]
 

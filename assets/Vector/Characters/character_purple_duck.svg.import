@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bipbgkmwfxpkr"
-path="res://.godot/imported/character_purple_duck.svg-8136eb932be734e44cc4a2ac967d2a2f.ctex"
+path="res://.godot/imported/character_purple_duck.svg-c5b8ca79589e687e3e12a757226095d0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Characters/character_purple_duck.svg"
-dest_files=["res://.godot/imported/character_purple_duck.svg-8136eb932be734e44cc4a2ac967d2a2f.ctex"]
+source_file="res://assets/Vector/Characters/character_purple_duck.svg"
+dest_files=["res://.godot/imported/character_purple_duck.svg-c5b8ca79589e687e3e12a757226095d0.ctex"]
 
 [params]
 

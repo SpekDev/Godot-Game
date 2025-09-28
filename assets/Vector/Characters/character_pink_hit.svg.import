@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cunw8kkog3kpt"
-path="res://.godot/imported/character_pink_hit.svg-aa9e3951887d1265d2157f9486db2637.ctex"
+path="res://.godot/imported/character_pink_hit.svg-beb94843a619aeccbe26f9560323b370.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Characters/character_pink_hit.svg"
-dest_files=["res://.godot/imported/character_pink_hit.svg-aa9e3951887d1265d2157f9486db2637.ctex"]
+source_file="res://assets/Vector/Characters/character_pink_hit.svg"
+dest_files=["res://.godot/imported/character_pink_hit.svg-beb94843a619aeccbe26f9560323b370.ctex"]
 
 [params]
 

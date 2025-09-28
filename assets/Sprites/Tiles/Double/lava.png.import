@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bathhpk1yblxu"
-path="res://.godot/imported/lava.png-69623406d295595f89fd8ffb18768dd4.ctex"
+path="res://.godot/imported/lava.png-e363c78ac425c358b50f812fda7c0dfe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Tiles/Double/lava.png"
-dest_files=["res://.godot/imported/lava.png-69623406d295595f89fd8ffb18768dd4.ctex"]
+source_file="res://assets/Sprites/Tiles/Double/lava.png"
+dest_files=["res://.godot/imported/lava.png-e363c78ac425c358b50f812fda7c0dfe.ctex"]
 
 [params]
 

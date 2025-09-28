@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwrj1yxr62oau"
-path="res://.godot/imported/flag_yellow_b.png-cae07249d4fa497ddeab7b8da717c57e.ctex"
+path="res://.godot/imported/flag_yellow_b.png-9c48c3e5c53c316eac509243572d575f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Tiles/Default/flag_yellow_b.png"
-dest_files=["res://.godot/imported/flag_yellow_b.png-cae07249d4fa497ddeab7b8da717c57e.ctex"]
+source_file="res://assets/Sprites/Tiles/Default/flag_yellow_b.png"
+dest_files=["res://.godot/imported/flag_yellow_b.png-9c48c3e5c53c316eac509243572d575f.ctex"]
 
 [params]
 

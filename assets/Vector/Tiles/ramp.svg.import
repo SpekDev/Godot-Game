@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b21ftgih7xy7g"
-path="res://.godot/imported/ramp.svg-72c696a2f5ac5f1aaa32456bc9fc4f43.ctex"
+path="res://.godot/imported/ramp.svg-c5fda06f8de68ab4b7596dea9f500dbb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Tiles/ramp.svg"
-dest_files=["res://.godot/imported/ramp.svg-72c696a2f5ac5f1aaa32456bc9fc4f43.ctex"]
+source_file="res://assets/Vector/Tiles/ramp.svg"
+dest_files=["res://.godot/imported/ramp.svg-c5fda06f8de68ab4b7596dea9f500dbb.ctex"]
 
 [params]
 

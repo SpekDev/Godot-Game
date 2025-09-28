@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dymjxo1m3yo6i"
-path="res://.godot/imported/slime_normal_rest.svg-d22c856975ccc7d8d07da507220b9fff.ctex"
+path="res://.godot/imported/slime_normal_rest.svg-1b154d9826615871983d27a8f39a38cf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Enemies/slime_normal_rest.svg"
-dest_files=["res://.godot/imported/slime_normal_rest.svg-d22c856975ccc7d8d07da507220b9fff.ctex"]
+source_file="res://assets/Vector/Enemies/slime_normal_rest.svg"
+dest_files=["res://.godot/imported/slime_normal_rest.svg-1b154d9826615871983d27a8f39a38cf.ctex"]
 
 [params]
 

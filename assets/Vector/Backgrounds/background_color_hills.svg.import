@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dkjhbfddtlfkk"
-path="res://.godot/imported/background_color_hills.svg-09d074238f888db11bd909fa82f7036e.ctex"
+path="res://.godot/imported/background_color_hills.svg-e80dc3ae30f5bc969c77ab8f57b80461.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Backgrounds/background_color_hills.svg"
-dest_files=["res://.godot/imported/background_color_hills.svg-09d074238f888db11bd909fa82f7036e.ctex"]
+source_file="res://assets/Vector/Backgrounds/background_color_hills.svg"
+dest_files=["res://.godot/imported/background_color_hills.svg-e80dc3ae30f5bc969c77ab8f57b80461.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c0klnf7oy3ipw"
-path="res://.godot/imported/star.svg-e9c4a3cc5b4d2546edbb4b6f9e29ddc0.ctex"
+path="res://.godot/imported/star.svg-12f53a42ccad31743451186e00148660.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Tiles/star.svg"
-dest_files=["res://.godot/imported/star.svg-e9c4a3cc5b4d2546edbb4b6f9e29ddc0.ctex"]
+source_file="res://assets/Vector/Tiles/star.svg"
+dest_files=["res://.godot/imported/star.svg-12f53a42ccad31743451186e00148660.ctex"]
 
 [params]
 

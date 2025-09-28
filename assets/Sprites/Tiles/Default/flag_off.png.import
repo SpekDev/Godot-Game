@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cqxkgahfhqtad"
-path="res://.godot/imported/flag_off.png-07012f47263b548c0ec3907a42e3ee22.ctex"
+path="res://.godot/imported/flag_off.png-13ebb68dac3b3a8d7b25af7ff198497b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Tiles/Default/flag_off.png"
-dest_files=["res://.godot/imported/flag_off.png-07012f47263b548c0ec3907a42e3ee22.ctex"]
+source_file="res://assets/Sprites/Tiles/Default/flag_off.png"
+dest_files=["res://.godot/imported/flag_off.png-13ebb68dac3b3a8d7b25af7ff198497b.ctex"]
 
 [params]
 

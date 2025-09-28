@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://gdif27f3xw6s"
-path="res://.godot/imported/block_strong_danger.png-c6e1091814c2e3e800e3f2c16cb144f0.ctex"
+path="res://.godot/imported/block_strong_danger.png-4c32925b89503a6846b07658b2fff5e0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Tiles/Default/block_strong_danger.png"
-dest_files=["res://.godot/imported/block_strong_danger.png-c6e1091814c2e3e800e3f2c16cb144f0.ctex"]
+source_file="res://assets/Sprites/Tiles/Default/block_strong_danger.png"
+dest_files=["res://.godot/imported/block_strong_danger.png-4c32925b89503a6846b07658b2fff5e0.ctex"]
 
 [params]
 

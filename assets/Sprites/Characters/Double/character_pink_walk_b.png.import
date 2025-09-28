@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://2dihfi0cbvo8"
-path="res://.godot/imported/character_pink_walk_b.png-e9fd8a2ac7db3509308104db095238f2.ctex"
+path="res://.godot/imported/character_pink_walk_b.png-c44bb3491a64ac39a9c4758ca9c8e24d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Characters/Double/character_pink_walk_b.png"
-dest_files=["res://.godot/imported/character_pink_walk_b.png-e9fd8a2ac7db3509308104db095238f2.ctex"]
+source_file="res://assets/Sprites/Characters/Double/character_pink_walk_b.png"
+dest_files=["res://.godot/imported/character_pink_walk_b.png-c44bb3491a64ac39a9c4758ca9c8e24d.ctex"]
 
 [params]
 

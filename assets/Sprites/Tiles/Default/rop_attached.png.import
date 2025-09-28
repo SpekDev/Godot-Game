@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cw1yinux0475f"
-path="res://.godot/imported/rop_attached.png-a5ddf65206720311aaee312e49524cb6.ctex"
+path="res://.godot/imported/rop_attached.png-78583c6460ce58ba35d9de9cad7777ce.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Tiles/Default/rop_attached.png"
-dest_files=["res://.godot/imported/rop_attached.png-a5ddf65206720311aaee312e49524cb6.ctex"]
+source_file="res://assets/Sprites/Tiles/Default/rop_attached.png"
+dest_files=["res://.godot/imported/rop_attached.png-78583c6460ce58ba35d9de9cad7777ce.ctex"]
 
 [params]
 

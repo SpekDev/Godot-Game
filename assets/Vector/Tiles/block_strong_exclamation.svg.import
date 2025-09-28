@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://oq7a6x7kpdvx"
-path="res://.godot/imported/block_strong_exclamation.svg-4fcc66170e27ac06496ce253d316e618.ctex"
+path="res://.godot/imported/block_strong_exclamation.svg-94f27ac2dc8484b7a9fa1fce340b2d46.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Tiles/block_strong_exclamation.svg"
-dest_files=["res://.godot/imported/block_strong_exclamation.svg-4fcc66170e27ac06496ce253d316e618.ctex"]
+source_file="res://assets/Vector/Tiles/block_strong_exclamation.svg"
+dest_files=["res://.godot/imported/block_strong_exclamation.svg-94f27ac2dc8484b7a9fa1fce340b2d46.ctex"]
 
 [params]
 

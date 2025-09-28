@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://fsfccyycphjo"
-path="res://.godot/imported/brick_brown_diagonal.svg-45e43e6075930e1180b6dac0612b93bf.ctex"
+path="res://.godot/imported/brick_brown_diagonal.svg-8110f5650fdf5e25202713f121f28ed0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Tiles/brick_brown_diagonal.svg"
-dest_files=["res://.godot/imported/brick_brown_diagonal.svg-45e43e6075930e1180b6dac0612b93bf.ctex"]
+source_file="res://assets/Vector/Tiles/brick_brown_diagonal.svg"
+dest_files=["res://.godot/imported/brick_brown_diagonal.svg-8110f5650fdf5e25202713f121f28ed0.ctex"]
 
 [params]
 

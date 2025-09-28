@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cuo0mtl8esc8k"
-path="res://.godot/imported/terrain_snow_vertical_top.png-e456a3f43e2893eec602962b1bdd23c1.ctex"
+path="res://.godot/imported/terrain_snow_vertical_top.png-82f7daf7819dcaa6c807ddb9dcf8b296.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Tiles/Default/terrain_snow_vertical_top.png"
-dest_files=["res://.godot/imported/terrain_snow_vertical_top.png-e456a3f43e2893eec602962b1bdd23c1.ctex"]
+source_file="res://assets/Sprites/Tiles/Default/terrain_snow_vertical_top.png"
+dest_files=["res://.godot/imported/terrain_snow_vertical_top.png-82f7daf7819dcaa6c807ddb9dcf8b296.ctex"]
 
 [params]
 

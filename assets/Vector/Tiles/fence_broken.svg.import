@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c474x22vxnkxm"
-path="res://.godot/imported/fence_broken.svg-99d42887b8328a19a01bd42860df9c07.ctex"
+path="res://.godot/imported/fence_broken.svg-e87a8a2dbf86d782aaaffbfe16d968fb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Tiles/fence_broken.svg"
-dest_files=["res://.godot/imported/fence_broken.svg-99d42887b8328a19a01bd42860df9c07.ctex"]
+source_file="res://assets/Vector/Tiles/fence_broken.svg"
+dest_files=["res://.godot/imported/fence_broken.svg-e87a8a2dbf86d782aaaffbfe16d968fb.ctex"]
 
 [params]
 

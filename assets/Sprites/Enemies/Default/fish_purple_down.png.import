@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ffk3jr4ex3qw"
-path="res://.godot/imported/fish_purple_down.png-217dcba88fd772f5ebd31c23f6ef6a12.ctex"
+path="res://.godot/imported/fish_purple_down.png-8e76d2222a488d67d6f922fec503ea2c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Enemies/Default/fish_purple_down.png"
-dest_files=["res://.godot/imported/fish_purple_down.png-217dcba88fd772f5ebd31c23f6ef6a12.ctex"]
+source_file="res://assets/Sprites/Enemies/Default/fish_purple_down.png"
+dest_files=["res://.godot/imported/fish_purple_down.png-8e76d2222a488d67d6f922fec503ea2c.ctex"]
 
 [params]
 

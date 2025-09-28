@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dlsyoubsx2agw"
-path="res://.godot/imported/background_solid_sky.png-948073c5b9aaea46d0fc63e81075dbe9.ctex"
+path="res://.godot/imported/background_solid_sky.png-bdddc0de3cf80aeb2603fca69c9fa81d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Backgrounds/Default/background_solid_sky.png"
-dest_files=["res://.godot/imported/background_solid_sky.png-948073c5b9aaea46d0fc63e81075dbe9.ctex"]
+source_file="res://assets/Sprites/Backgrounds/Default/background_solid_sky.png"
+dest_files=["res://.godot/imported/background_solid_sky.png-bdddc0de3cf80aeb2603fca69c9fa81d.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://njm3gud5k4h4"
-path="res://.godot/imported/slime_normal_walk_a.png-573718a9c6e49e1ce8eb5041676aba2a.ctex"
+path="res://.godot/imported/slime_normal_walk_a.png-706901b7e36524b5674d85c22f439e24.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Enemies/Double/slime_normal_walk_a.png"
-dest_files=["res://.godot/imported/slime_normal_walk_a.png-573718a9c6e49e1ce8eb5041676aba2a.ctex"]
+source_file="res://assets/Sprites/Enemies/Double/slime_normal_walk_a.png"
+dest_files=["res://.godot/imported/slime_normal_walk_a.png-706901b7e36524b5674d85c22f439e24.ctex"]
 
 [params]
 

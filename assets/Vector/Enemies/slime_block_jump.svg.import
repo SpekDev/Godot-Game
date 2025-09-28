@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c06tobpb4e3ka"
-path="res://.godot/imported/slime_block_jump.svg-e815ea9a8a5525a5b253a08082224fa8.ctex"
+path="res://.godot/imported/slime_block_jump.svg-1302ea59aa2635494d7bfc44ad871bba.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Enemies/slime_block_jump.svg"
-dest_files=["res://.godot/imported/slime_block_jump.svg-e815ea9a8a5525a5b253a08082224fa8.ctex"]
+source_file="res://assets/Vector/Enemies/slime_block_jump.svg"
+dest_files=["res://.godot/imported/slime_block_jump.svg-1302ea59aa2635494d7bfc44ad871bba.ctex"]
 
 [params]
 

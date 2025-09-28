@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ci2b7ba80pask"
-path="res://.godot/imported/weight.png-0c7bdcc7b3bce8e479904c41a53e9db2.ctex"
+path="res://.godot/imported/weight.png-b8ecf1a10a2c7682e0b2ece32ac373ad.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Tiles/Default/weight.png"
-dest_files=["res://.godot/imported/weight.png-0c7bdcc7b3bce8e479904c41a53e9db2.ctex"]
+source_file="res://assets/Sprites/Tiles/Default/weight.png"
+dest_files=["res://.godot/imported/weight.png-b8ecf1a10a2c7682e0b2ece32ac373ad.ctex"]
 
 [params]
 

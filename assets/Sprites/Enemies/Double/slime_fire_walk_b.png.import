@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://df2b4l8dkpkl8"
-path="res://.godot/imported/slime_fire_walk_b.png-cb12c2f016374d016269b400527d25f7.ctex"
+path="res://.godot/imported/slime_fire_walk_b.png-16c2215a1cfdc3976ac41fb9dadab3c6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Enemies/Double/slime_fire_walk_b.png"
-dest_files=["res://.godot/imported/slime_fire_walk_b.png-cb12c2f016374d016269b400527d25f7.ctex"]
+source_file="res://assets/Sprites/Enemies/Double/slime_fire_walk_b.png"
+dest_files=["res://.godot/imported/slime_fire_walk_b.png-16c2215a1cfdc3976ac41fb9dadab3c6.ctex"]
 
 [params]
 

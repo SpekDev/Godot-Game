@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ep7t5rhct5ah"
-path="res://.godot/imported/gem_red.png-d7120f7b8e644a7c5a446656caced159.ctex"
+path="res://.godot/imported/gem_red.png-17be308489ae888446d7c679f8668d81.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Tiles/Default/gem_red.png"
-dest_files=["res://.godot/imported/gem_red.png-d7120f7b8e644a7c5a446656caced159.ctex"]
+source_file="res://assets/Sprites/Tiles/Default/gem_red.png"
+dest_files=["res://.godot/imported/gem_red.png-17be308489ae888446d7c679f8668d81.ctex"]
 
 [params]
 

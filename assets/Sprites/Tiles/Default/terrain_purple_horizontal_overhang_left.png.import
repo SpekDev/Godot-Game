@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bmsdd15oe6c5q"
-path="res://.godot/imported/terrain_purple_horizontal_overhang_left.png-ab3b5d6358b130562549bf2ab7b68505.ctex"
+path="res://.godot/imported/terrain_purple_horizontal_overhang_left.png-bf4ca02b48e89f11db40c348250e60e0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Tiles/Default/terrain_purple_horizontal_overhang_left.png"
-dest_files=["res://.godot/imported/terrain_purple_horizontal_overhang_left.png-ab3b5d6358b130562549bf2ab7b68505.ctex"]
+source_file="res://assets/Sprites/Tiles/Default/terrain_purple_horizontal_overhang_left.png"
+dest_files=["res://.godot/imported/terrain_purple_horizontal_overhang_left.png-bf4ca02b48e89f11db40c348250e60e0.ctex"]
 
 [params]
 

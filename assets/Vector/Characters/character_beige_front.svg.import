@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://2k56tau8aqva"
-path="res://.godot/imported/character_beige_front.svg-0f4feef991e3cb04152199333d3988c6.ctex"
+path="res://.godot/imported/character_beige_front.svg-c9223c6f22ba1185621c57abc5049cb5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Characters/character_beige_front.svg"
-dest_files=["res://.godot/imported/character_beige_front.svg-0f4feef991e3cb04152199333d3988c6.ctex"]
+source_file="res://assets/Vector/Characters/character_beige_front.svg"
+dest_files=["res://.godot/imported/character_beige_front.svg-c9223c6f22ba1185621c57abc5049cb5.ctex"]
 
 [params]
 

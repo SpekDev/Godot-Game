@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c4khaamhn7t4w"
-path="res://.godot/imported/hud_key_red.png-c7ff23773e99c687e1e29fc8c1eb2914.ctex"
+path="res://.godot/imported/hud_key_red.png-4f4c7145056c340826319418cbd08411.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Tiles/Double/hud_key_red.png"
-dest_files=["res://.godot/imported/hud_key_red.png-c7ff23773e99c687e1e29fc8c1eb2914.ctex"]
+source_file="res://assets/Sprites/Tiles/Double/hud_key_red.png"
+dest_files=["res://.godot/imported/hud_key_red.png-4f4c7145056c340826319418cbd08411.ctex"]
 
 [params]
 

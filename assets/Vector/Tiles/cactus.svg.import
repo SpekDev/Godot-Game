@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://iqfbe6o1v6p6"
-path="res://.godot/imported/cactus.svg-68d4b09d0e91541160675f072623b430.ctex"
+path="res://.godot/imported/cactus.svg-5cf557cf5867eaea9e52f639d8dc8d11.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Tiles/cactus.svg"
-dest_files=["res://.godot/imported/cactus.svg-68d4b09d0e91541160675f072623b430.ctex"]
+source_file="res://assets/Vector/Tiles/cactus.svg"
+dest_files=["res://.godot/imported/cactus.svg-5cf557cf5867eaea9e52f639d8dc8d11.ctex"]
 
 [params]
 

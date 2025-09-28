@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dk1jh45hpunp2"
-path="res://.godot/imported/block_plank.png-f437e4aecc6a23025781f647b27ab730.ctex"
+path="res://.godot/imported/block_plank.png-6b92589caf165e7d62671a4a0f3ef8db.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Tiles/Double/block_plank.png"
-dest_files=["res://.godot/imported/block_plank.png-f437e4aecc6a23025781f647b27ab730.ctex"]
+source_file="res://assets/Sprites/Tiles/Double/block_plank.png"
+dest_files=["res://.godot/imported/block_plank.png-6b92589caf165e7d62671a4a0f3ef8db.ctex"]
 
 [params]
 

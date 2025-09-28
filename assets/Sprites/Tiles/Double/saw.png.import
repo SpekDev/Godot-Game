@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://5c21drhi0qwq"
-path="res://.godot/imported/saw.png-bf569d2fd2ee5a482594b7e0c4af6b11.ctex"
+path="res://.godot/imported/saw.png-8458bc5cd725029f36f78b0302568f51.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Tiles/Double/saw.png"
-dest_files=["res://.godot/imported/saw.png-bf569d2fd2ee5a482594b7e0c4af6b11.ctex"]
+source_file="res://assets/Sprites/Tiles/Double/saw.png"
+dest_files=["res://.godot/imported/saw.png-8458bc5cd725029f36f78b0302568f51.ctex"]
 
 [params]
 

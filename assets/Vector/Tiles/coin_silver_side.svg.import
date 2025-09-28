@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4smd4o1d2v0p"
-path="res://.godot/imported/coin_silver_side.svg-0c27d843765845186d579bef71517162.ctex"
+path="res://.godot/imported/coin_silver_side.svg-d846d3eb4e15b1f66e279aadcd017ab7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Tiles/coin_silver_side.svg"
-dest_files=["res://.godot/imported/coin_silver_side.svg-0c27d843765845186d579bef71517162.ctex"]
+source_file="res://assets/Vector/Tiles/coin_silver_side.svg"
+dest_files=["res://.godot/imported/coin_silver_side.svg-d846d3eb4e15b1f66e279aadcd017ab7.ctex"]
 
 [params]
 

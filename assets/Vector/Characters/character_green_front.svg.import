@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dq0rt8wircylc"
-path="res://.godot/imported/character_green_front.svg-03538988158ed5e8cc87970172d99edf.ctex"
+path="res://.godot/imported/character_green_front.svg-e3e8810d4fe3fb53f1a5448f866e0f97.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Characters/character_green_front.svg"
-dest_files=["res://.godot/imported/character_green_front.svg-03538988158ed5e8cc87970172d99edf.ctex"]
+source_file="res://assets/Vector/Characters/character_green_front.svg"
+dest_files=["res://.godot/imported/character_green_front.svg-e3e8810d4fe3fb53f1a5448f866e0f97.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dqx827ewswfbc"
-path="res://.godot/imported/lava_top_low.svg-36957ddaa8957202716329c51d773e8f.ctex"
+path="res://.godot/imported/lava_top_low.svg-449312f88108d35393236ceb921e0f63.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Tiles/lava_top_low.svg"
-dest_files=["res://.godot/imported/lava_top_low.svg-36957ddaa8957202716329c51d773e8f.ctex"]
+source_file="res://assets/Vector/Tiles/lava_top_low.svg"
+dest_files=["res://.godot/imported/lava_top_low.svg-449312f88108d35393236ceb921e0f63.ctex"]
 
 [params]
 

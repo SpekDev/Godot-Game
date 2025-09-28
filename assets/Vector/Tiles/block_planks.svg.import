@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dp343qeyqxrso"
-path="res://.godot/imported/block_planks.svg-42785154f658197976dfc633c37b329e.ctex"
+path="res://.godot/imported/block_planks.svg-6fa199339d5c6b89dd48e1633ae5246f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Tiles/block_planks.svg"
-dest_files=["res://.godot/imported/block_planks.svg-42785154f658197976dfc633c37b329e.ctex"]
+source_file="res://assets/Vector/Tiles/block_planks.svg"
+dest_files=["res://.godot/imported/block_planks.svg-6fa199339d5c6b89dd48e1633ae5246f.ctex"]
 
 [params]
 

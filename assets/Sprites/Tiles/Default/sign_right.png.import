@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blefhpbmfmngs"
-path="res://.godot/imported/sign_right.png-8d54e07e72c18dac15f9f44dff037afd.ctex"
+path="res://.godot/imported/sign_right.png-c31b49d2d1427a972adc615cc8e9544e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Tiles/Default/sign_right.png"
-dest_files=["res://.godot/imported/sign_right.png-8d54e07e72c18dac15f9f44dff037afd.ctex"]
+source_file="res://assets/Sprites/Tiles/Default/sign_right.png"
+dest_files=["res://.godot/imported/sign_right.png-c31b49d2d1427a972adc615cc8e9544e.ctex"]
 
 [params]
 

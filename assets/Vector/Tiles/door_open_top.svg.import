@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c5bb2oa5x2hm2"
-path="res://.godot/imported/door_open_top.svg-1b59fd0c29a08018bb4724c8aefa3433.ctex"
+path="res://.godot/imported/door_open_top.svg-72f07631ed4627d59d5f2af5539f9171.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Tiles/door_open_top.svg"
-dest_files=["res://.godot/imported/door_open_top.svg-1b59fd0c29a08018bb4724c8aefa3433.ctex"]
+source_file="res://assets/Vector/Tiles/door_open_top.svg"
+dest_files=["res://.godot/imported/door_open_top.svg-72f07631ed4627d59d5f2af5539f9171.ctex"]
 
 [params]
 

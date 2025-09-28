@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b7qovlu0m5tuc"
-path="res://.godot/imported/fly_b.svg-af776387f9f517736de089ab7f5d61bf.ctex"
+path="res://.godot/imported/fly_b.svg-1f04917f35c6af08015e60fe45c3aa37.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Enemies/fly_b.svg"
-dest_files=["res://.godot/imported/fly_b.svg-af776387f9f517736de089ab7f5d61bf.ctex"]
+source_file="res://assets/Vector/Enemies/fly_b.svg"
+dest_files=["res://.godot/imported/fly_b.svg-1f04917f35c6af08015e60fe45c3aa37.ctex"]
 
 [params]
 

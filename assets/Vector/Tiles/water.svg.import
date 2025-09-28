@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjuu4aajoa2wq"
-path="res://.godot/imported/water.svg-e965e5855a1c4f787121dfb38fa851ae.ctex"
+path="res://.godot/imported/water.svg-f28af09a29f6fff1162246aeef206c83.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Tiles/water.svg"
-dest_files=["res://.godot/imported/water.svg-e965e5855a1c4f787121dfb38fa851ae.ctex"]
+source_file="res://assets/Vector/Tiles/water.svg"
+dest_files=["res://.godot/imported/water.svg-f28af09a29f6fff1162246aeef206c83.ctex"]
 
 [params]
 

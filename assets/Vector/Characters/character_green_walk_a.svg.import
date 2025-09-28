@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4ui8sjxs1jjv"
-path="res://.godot/imported/character_green_walk_a.svg-e115339232f931a0483192c8ca718f71.ctex"
+path="res://.godot/imported/character_green_walk_a.svg-f83d19037b0a0159d2e5b19bd1e1f74c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Characters/character_green_walk_a.svg"
-dest_files=["res://.godot/imported/character_green_walk_a.svg-e115339232f931a0483192c8ca718f71.ctex"]
+source_file="res://assets/Vector/Characters/character_green_walk_a.svg"
+dest_files=["res://.godot/imported/character_green_walk_a.svg-f83d19037b0a0159d2e5b19bd1e1f74c.ctex"]
 
 [params]
 

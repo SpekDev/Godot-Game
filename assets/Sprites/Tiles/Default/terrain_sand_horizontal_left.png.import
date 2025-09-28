@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bi3fhfk8wy2os"
-path="res://.godot/imported/terrain_sand_horizontal_left.png-f54abbc96274e71cfd2ec768820e6b22.ctex"
+path="res://.godot/imported/terrain_sand_horizontal_left.png-f53a4c0523780dfea5e8ff07b51a2e61.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Tiles/Default/terrain_sand_horizontal_left.png"
-dest_files=["res://.godot/imported/terrain_sand_horizontal_left.png-f54abbc96274e71cfd2ec768820e6b22.ctex"]
+source_file="res://assets/Sprites/Tiles/Default/terrain_sand_horizontal_left.png"
+dest_files=["res://.godot/imported/terrain_sand_horizontal_left.png-f53a4c0523780dfea5e8ff07b51a2e61.ctex"]
 
 [params]
 

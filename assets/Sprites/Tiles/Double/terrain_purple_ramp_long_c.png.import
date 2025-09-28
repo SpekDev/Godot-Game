@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ds5co0pdcrq8d"
-path="res://.godot/imported/terrain_purple_ramp_long_c.png-2978072605bed19817d3d7bbcad7b8cc.ctex"
+path="res://.godot/imported/terrain_purple_ramp_long_c.png-30022df14151d21091878b7e2cbd5609.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Tiles/Double/terrain_purple_ramp_long_c.png"
-dest_files=["res://.godot/imported/terrain_purple_ramp_long_c.png-2978072605bed19817d3d7bbcad7b8cc.ctex"]
+source_file="res://assets/Sprites/Tiles/Double/terrain_purple_ramp_long_c.png"
+dest_files=["res://.godot/imported/terrain_purple_ramp_long_c.png-30022df14151d21091878b7e2cbd5609.ctex"]
 
 [params]
 

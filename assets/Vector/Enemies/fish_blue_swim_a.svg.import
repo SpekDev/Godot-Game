@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://csvluu8v0a37r"
-path="res://.godot/imported/fish_blue_swim_a.svg-dddfbebe3a26d0094a9dd21f123c1ba4.ctex"
+path="res://.godot/imported/fish_blue_swim_a.svg-5f4c57d14ca5716292da3cc237811f0c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Enemies/fish_blue_swim_a.svg"
-dest_files=["res://.godot/imported/fish_blue_swim_a.svg-dddfbebe3a26d0094a9dd21f123c1ba4.ctex"]
+source_file="res://assets/Vector/Enemies/fish_blue_swim_a.svg"
+dest_files=["res://.godot/imported/fish_blue_swim_a.svg-5f4c57d14ca5716292da3cc237811f0c.ctex"]
 
 [params]
 

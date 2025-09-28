@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ba2n87rqyc8md"
-path="res://.godot/imported/background_color_desert.svg-189cebf1d0f41436aa51e9b87159a1e8.ctex"
+path="res://.godot/imported/background_color_desert.svg-9d4ef2aca1513bfb17cd84ee9e403105.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Backgrounds/background_color_desert.svg"
-dest_files=["res://.godot/imported/background_color_desert.svg-189cebf1d0f41436aa51e9b87159a1e8.ctex"]
+source_file="res://assets/Vector/Backgrounds/background_color_desert.svg"
+dest_files=["res://.godot/imported/background_color_desert.svg-9d4ef2aca1513bfb17cd84ee9e403105.ctex"]
 
 [params]
 

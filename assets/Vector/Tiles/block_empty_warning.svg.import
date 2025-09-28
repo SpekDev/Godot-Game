@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0p8uc13vpy74"
-path="res://.godot/imported/block_empty_warning.svg-4781526345f6ecc566faa272811e20b2.ctex"
+path="res://.godot/imported/block_empty_warning.svg-f99a383590dfc2d4d52f88f5ddc72e20.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Vector/Tiles/block_empty_warning.svg"
-dest_files=["res://.godot/imported/block_empty_warning.svg-4781526345f6ecc566faa272811e20b2.ctex"]
+source_file="res://assets/Vector/Tiles/block_empty_warning.svg"
+dest_files=["res://.godot/imported/block_empty_warning.svg-f99a383590dfc2d4d52f88f5ddc72e20.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c3m0aal1rwwiq"
-path="res://.godot/imported/block_empty_warning.png-f98cf89528f05afe4ddc0c9566b7517e.ctex"
+path="res://.godot/imported/block_empty_warning.png-f547c0a93c0bb90794734be094a854b1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Tiles/Default/block_empty_warning.png"
-dest_files=["res://.godot/imported/block_empty_warning.png-f98cf89528f05afe4ddc0c9566b7517e.ctex"]
+source_file="res://assets/Sprites/Tiles/Default/block_empty_warning.png"
+dest_files=["res://.godot/imported/block_empty_warning.png-f547c0a93c0bb90794734be094a854b1.ctex"]
 
 [params]
 

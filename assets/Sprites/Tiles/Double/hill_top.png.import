@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ptebn5pvkasp"
-path="res://.godot/imported/hill_top.png-32bf50ae7f5826d73491bce6b508d7a5.ctex"
+path="res://.godot/imported/hill_top.png-adf2d77b0282bfbf2e380b54cca4d98d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Sprites/Tiles/Double/hill_top.png"
-dest_files=["res://.godot/imported/hill_top.png-32bf50ae7f5826d73491bce6b508d7a5.ctex"]
+source_file="res://assets/Sprites/Tiles/Double/hill_top.png"
+dest_files=["res://.godot/imported/hill_top.png-adf2d77b0282bfbf2e380b54cca4d98d.ctex"]
 
 [params]
 
