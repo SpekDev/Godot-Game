@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bupakiuptpnmo"
-path="res://.godot/imported/hill.png-467f07eb46e948c696ff0644dbecad12.ctex"
+path="res://.godot/imported/hill.png-1597b6379ad81ea418e08ae67f214b36.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Tiles/Double/hill.png"
-dest_files=["res://.godot/imported/hill.png-467f07eb46e948c696ff0644dbecad12.ctex"]
+source_file="res://Assets/Sprites/Tiles/Double/hill.png"
+dest_files=["res://.godot/imported/hill.png-1597b6379ad81ea418e08ae67f214b36.ctex"]
 
 [params]
 

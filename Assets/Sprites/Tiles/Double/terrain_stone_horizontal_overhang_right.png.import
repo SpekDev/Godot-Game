@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6ecppe58g2fp"
-path="res://.godot/imported/terrain_stone_horizontal_overhang_right.png-471b0e28e5ff60bbcde6d02defe6a357.ctex"
+path="res://.godot/imported/terrain_stone_horizontal_overhang_right.png-b3ed12a7a8154443faea625efd9f1064.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Tiles/Double/terrain_stone_horizontal_overhang_right.png"
-dest_files=["res://.godot/imported/terrain_stone_horizontal_overhang_right.png-471b0e28e5ff60bbcde6d02defe6a357.ctex"]
+source_file="res://Assets/Sprites/Tiles/Double/terrain_stone_horizontal_overhang_right.png"
+dest_files=["res://.godot/imported/terrain_stone_horizontal_overhang_right.png-b3ed12a7a8154443faea625efd9f1064.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://1n7eps1h1t2o"
-path="res://.godot/imported/terrain_grass_ramp_long_b.svg-532812caedfdb741abdee2b734f57991.ctex"
+path="res://.godot/imported/terrain_grass_ramp_long_b.svg-65f2fd91e66d74a4ae86d94f8a7cb934.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vector/Tiles/terrain_grass_ramp_long_b.svg"
-dest_files=["res://.godot/imported/terrain_grass_ramp_long_b.svg-532812caedfdb741abdee2b734f57991.ctex"]
+source_file="res://Assets/Vector/Tiles/terrain_grass_ramp_long_b.svg"
+dest_files=["res://.godot/imported/terrain_grass_ramp_long_b.svg-65f2fd91e66d74a4ae86d94f8a7cb934.ctex"]
 
 [params]
 

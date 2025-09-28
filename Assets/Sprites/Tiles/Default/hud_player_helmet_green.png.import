@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ce5padrk6hvey"
-path="res://.godot/imported/hud_player_helmet_green.png-ca09ce2b0857d2aff52b062ae0c1c267.ctex"
+path="res://.godot/imported/hud_player_helmet_green.png-fe08bba9a88f01bdb525cda5cde1c191.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Tiles/Default/hud_player_helmet_green.png"
-dest_files=["res://.godot/imported/hud_player_helmet_green.png-ca09ce2b0857d2aff52b062ae0c1c267.ctex"]
+source_file="res://Assets/Sprites/Tiles/Default/hud_player_helmet_green.png"
+dest_files=["res://.godot/imported/hud_player_helmet_green.png-fe08bba9a88f01bdb525cda5cde1c191.ctex"]
 
 [params]
 

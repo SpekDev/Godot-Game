@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://jceelqn3ow67"
-path="res://.godot/imported/slime_spike_walk_a.png-b5010eca617709ab0400a1a960d475ad.ctex"
+path="res://.godot/imported/slime_spike_walk_a.png-941a7a670c6d1dd0e5a6ff9b146c2700.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Enemies/Default/slime_spike_walk_a.png"
-dest_files=["res://.godot/imported/slime_spike_walk_a.png-b5010eca617709ab0400a1a960d475ad.ctex"]
+source_file="res://Assets/Sprites/Enemies/Default/slime_spike_walk_a.png"
+dest_files=["res://.godot/imported/slime_spike_walk_a.png-941a7a670c6d1dd0e5a6ff9b146c2700.ctex"]
 
 [params]
 

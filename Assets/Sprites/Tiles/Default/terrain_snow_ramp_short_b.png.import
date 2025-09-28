@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bshkiklg6cy2l"
-path="res://.godot/imported/terrain_snow_ramp_short_b.png-27a1fe66bb20d58a9386133bab2d2b05.ctex"
+path="res://.godot/imported/terrain_snow_ramp_short_b.png-db9790e154c5bd22b946106611fe7916.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Tiles/Default/terrain_snow_ramp_short_b.png"
-dest_files=["res://.godot/imported/terrain_snow_ramp_short_b.png-27a1fe66bb20d58a9386133bab2d2b05.ctex"]
+source_file="res://Assets/Sprites/Tiles/Default/terrain_snow_ramp_short_b.png"
+dest_files=["res://.godot/imported/terrain_snow_ramp_short_b.png-db9790e154c5bd22b946106611fe7916.ctex"]
 
 [params]
 

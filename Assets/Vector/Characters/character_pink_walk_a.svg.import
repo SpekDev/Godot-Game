@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://0pdjwklngffu"
-path="res://.godot/imported/character_pink_walk_a.svg-c0f92adfdf153371263952883e038f13.ctex"
+path="res://.godot/imported/character_pink_walk_a.svg-4166ad5114e6f96ca1640e476818dc3e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vector/Characters/character_pink_walk_a.svg"
-dest_files=["res://.godot/imported/character_pink_walk_a.svg-c0f92adfdf153371263952883e038f13.ctex"]
+source_file="res://Assets/Vector/Characters/character_pink_walk_a.svg"
+dest_files=["res://.godot/imported/character_pink_walk_a.svg-4166ad5114e6f96ca1640e476818dc3e.ctex"]
 
 [params]
 

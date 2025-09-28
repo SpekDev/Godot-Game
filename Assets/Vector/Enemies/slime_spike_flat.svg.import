@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bvjvem6yr8cjw"
-path="res://.godot/imported/slime_spike_flat.svg-4361706cbcc7d6210bd5159f756c46ee.ctex"
+path="res://.godot/imported/slime_spike_flat.svg-05b456868ea2cfa5ec1ca9dc3cd7e9e2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vector/Enemies/slime_spike_flat.svg"
-dest_files=["res://.godot/imported/slime_spike_flat.svg-4361706cbcc7d6210bd5159f756c46ee.ctex"]
+source_file="res://Assets/Vector/Enemies/slime_spike_flat.svg"
+dest_files=["res://.godot/imported/slime_spike_flat.svg-05b456868ea2cfa5ec1ca9dc3cd7e9e2.ctex"]
 
 [params]
 

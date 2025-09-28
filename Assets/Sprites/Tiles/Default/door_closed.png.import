@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bqheicke4snm1"
-path="res://.godot/imported/door_closed.png-849f3b1afc3454c8c9cc631cf6ad6ea1.ctex"
+path="res://.godot/imported/door_closed.png-fb27dc5207a0fc1aa491ff23440854e8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Tiles/Default/door_closed.png"
-dest_files=["res://.godot/imported/door_closed.png-849f3b1afc3454c8c9cc631cf6ad6ea1.ctex"]
+source_file="res://Assets/Sprites/Tiles/Default/door_closed.png"
+dest_files=["res://.godot/imported/door_closed.png-fb27dc5207a0fc1aa491ff23440854e8.ctex"]
 
 [params]
 

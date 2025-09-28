@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://0gwx4b485nmp"
-path="res://.godot/imported/spritesheet-backgrounds-double.png-ed207e0b77b753ee1282f09d17cf8f6b.ctex"
+path="res://.godot/imported/spritesheet-backgrounds-double.png-f632b789292fca6a0add61d83521143d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Spritesheets/spritesheet-backgrounds-double.png"
-dest_files=["res://.godot/imported/spritesheet-backgrounds-double.png-ed207e0b77b753ee1282f09d17cf8f6b.ctex"]
+source_file="res://Assets/Spritesheets/spritesheet-backgrounds-double.png"
+dest_files=["res://.godot/imported/spritesheet-backgrounds-double.png-f632b789292fca6a0add61d83521143d.ctex"]
 
 [params]
 

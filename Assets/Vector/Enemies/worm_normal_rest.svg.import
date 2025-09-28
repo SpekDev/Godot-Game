@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cg2a2ygp8yft7"
-path="res://.godot/imported/worm_normal_rest.svg-5f1027ee147cb0548a80291103f0063f.ctex"
+path="res://.godot/imported/worm_normal_rest.svg-e48e9e2956ae53beea9df64736401509.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vector/Enemies/worm_normal_rest.svg"
-dest_files=["res://.godot/imported/worm_normal_rest.svg-5f1027ee147cb0548a80291103f0063f.ctex"]
+source_file="res://Assets/Vector/Enemies/worm_normal_rest.svg"
+dest_files=["res://.godot/imported/worm_normal_rest.svg-e48e9e2956ae53beea9df64736401509.ctex"]
 
 [params]
 

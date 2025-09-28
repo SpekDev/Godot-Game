@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxe4gmjndwabu"
-path="res://.godot/imported/ladder_middle.png-66f7e90483401d034f275fa0fc3ddc16.ctex"
+path="res://.godot/imported/ladder_middle.png-c4c66556023dfdd00dd88761def65c94.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Tiles/Default/ladder_middle.png"
-dest_files=["res://.godot/imported/ladder_middle.png-66f7e90483401d034f275fa0fc3ddc16.ctex"]
+source_file="res://Assets/Sprites/Tiles/Default/ladder_middle.png"
+dest_files=["res://.godot/imported/ladder_middle.png-c4c66556023dfdd00dd88761def65c94.ctex"]
 
 [params]
 

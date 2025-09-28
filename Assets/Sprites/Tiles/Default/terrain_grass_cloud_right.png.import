@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dox1by1xhoeqx"
-path="res://.godot/imported/terrain_grass_cloud_right.png-fb6087c945e252ec1bd0a46e32819432.ctex"
+path="res://.godot/imported/terrain_grass_cloud_right.png-3282ad7f7de3b2fe9c3560a2495d3086.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Tiles/Default/terrain_grass_cloud_right.png"
-dest_files=["res://.godot/imported/terrain_grass_cloud_right.png-fb6087c945e252ec1bd0a46e32819432.ctex"]
+source_file="res://Assets/Sprites/Tiles/Default/terrain_grass_cloud_right.png"
+dest_files=["res://.godot/imported/terrain_grass_cloud_right.png-3282ad7f7de3b2fe9c3560a2495d3086.ctex"]
 
 [params]
 

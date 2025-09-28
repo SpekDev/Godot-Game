@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c5fsd417bp8uw"
-path="res://.godot/imported/background_color_trees.svg-e7d415bbbf6f79e7f0d802a045b7d648.ctex"
+path="res://.godot/imported/background_color_trees.svg-4b8f9a390e3536362c351a2077d2bad9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vector/Backgrounds/background_color_trees.svg"
-dest_files=["res://.godot/imported/background_color_trees.svg-e7d415bbbf6f79e7f0d802a045b7d648.ctex"]
+source_file="res://Assets/Vector/Backgrounds/background_color_trees.svg"
+dest_files=["res://.godot/imported/background_color_trees.svg-4b8f9a390e3536362c351a2077d2bad9.ctex"]
 
 [params]
 

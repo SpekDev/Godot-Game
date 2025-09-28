@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ulj2hgvciaxd"
-path="res://.godot/imported/block_exclamation.png-25c08caced147b891f2d607d91be00a5.ctex"
+path="res://.godot/imported/block_exclamation.png-6f09a4bc7f613a770e00e490f451488d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Tiles/Double/block_exclamation.png"
-dest_files=["res://.godot/imported/block_exclamation.png-25c08caced147b891f2d607d91be00a5.ctex"]
+source_file="res://Assets/Sprites/Tiles/Double/block_exclamation.png"
+dest_files=["res://.godot/imported/block_exclamation.png-6f09a4bc7f613a770e00e490f451488d.ctex"]
 
 [params]
 

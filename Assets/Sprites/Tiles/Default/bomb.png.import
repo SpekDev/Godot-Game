@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnkhbkamk75hp"
-path="res://.godot/imported/bomb.png-2961f56c6555a6287fed183b2b59ebf0.ctex"
+path="res://.godot/imported/bomb.png-f1c4817a67bb47b19caee38f817fc03c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Tiles/Default/bomb.png"
-dest_files=["res://.godot/imported/bomb.png-2961f56c6555a6287fed183b2b59ebf0.ctex"]
+source_file="res://Assets/Sprites/Tiles/Default/bomb.png"
+dest_files=["res://.godot/imported/bomb.png-f1c4817a67bb47b19caee38f817fc03c.ctex"]
 
 [params]
 

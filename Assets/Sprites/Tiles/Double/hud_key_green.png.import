@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bmye4ngynvdfx"
-path="res://.godot/imported/hud_key_green.png-da6e1aa932326d973ca929d09245e2a0.ctex"
+path="res://.godot/imported/hud_key_green.png-15b2380cd300f40b4f7f34cf01164af0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Tiles/Double/hud_key_green.png"
-dest_files=["res://.godot/imported/hud_key_green.png-da6e1aa932326d973ca929d09245e2a0.ctex"]
+source_file="res://Assets/Sprites/Tiles/Double/hud_key_green.png"
+dest_files=["res://.godot/imported/hud_key_green.png-15b2380cd300f40b4f7f34cf01164af0.ctex"]
 
 [params]
 

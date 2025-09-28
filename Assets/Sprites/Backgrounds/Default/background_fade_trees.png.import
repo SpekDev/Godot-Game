@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bdsw8225bl5y6"
-path="res://.godot/imported/background_fade_trees.png-0970355749a7702b47cfe396517c4fd2.ctex"
+path="res://.godot/imported/background_fade_trees.png-0546bdc31e2adf18fa369e9304cc98fe.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Backgrounds/Default/background_fade_trees.png"
-dest_files=["res://.godot/imported/background_fade_trees.png-0970355749a7702b47cfe396517c4fd2.ctex"]
+source_file="res://Assets/Sprites/Backgrounds/Default/background_fade_trees.png"
+dest_files=["res://.godot/imported/background_fade_trees.png-0546bdc31e2adf18fa369e9304cc98fe.ctex"]
 
 [params]
 

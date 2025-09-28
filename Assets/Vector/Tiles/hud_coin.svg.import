@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d31quh5yomt8r"
-path="res://.godot/imported/hud_coin.svg-bf082bcd6ceb682e059bda3ae9416160.ctex"
+path="res://.godot/imported/hud_coin.svg-444de8ff983410aa8c7408c919c54db2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vector/Tiles/hud_coin.svg"
-dest_files=["res://.godot/imported/hud_coin.svg-bf082bcd6ceb682e059bda3ae9416160.ctex"]
+source_file="res://Assets/Vector/Tiles/hud_coin.svg"
+dest_files=["res://.godot/imported/hud_coin.svg-444de8ff983410aa8c7408c919c54db2.ctex"]
 
 [params]
 

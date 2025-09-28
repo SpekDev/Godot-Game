@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cc21kiqyd7f14"
-path="res://.godot/imported/ladybug_rest.png-33e9b006de30db26fed49b70966de9ed.ctex"
+path="res://.godot/imported/ladybug_rest.png-7344b5a1ede5a1e627471ec2c292ecb7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Enemies/Default/ladybug_rest.png"
-dest_files=["res://.godot/imported/ladybug_rest.png-33e9b006de30db26fed49b70966de9ed.ctex"]
+source_file="res://Assets/Sprites/Enemies/Default/ladybug_rest.png"
+dest_files=["res://.godot/imported/ladybug_rest.png-7344b5a1ede5a1e627471ec2c292ecb7.ctex"]
 
 [params]
 

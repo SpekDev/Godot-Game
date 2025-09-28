@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://df1101y8g7i2v"
-path="res://.godot/imported/terrain_stone_cloud_background.png-17e282243c31773f975b0627b9c47f39.ctex"
+path="res://.godot/imported/terrain_stone_cloud_background.png-53b280caea1628f162e0a8d642b5cd27.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Tiles/Default/terrain_stone_cloud_background.png"
-dest_files=["res://.godot/imported/terrain_stone_cloud_background.png-17e282243c31773f975b0627b9c47f39.ctex"]
+source_file="res://Assets/Sprites/Tiles/Default/terrain_stone_cloud_background.png"
+dest_files=["res://.godot/imported/terrain_stone_cloud_background.png-53b280caea1628f162e0a8d642b5cd27.ctex"]
 
 [params]
 

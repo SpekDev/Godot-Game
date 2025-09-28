@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bye7qk8oiucjk"
-path="res://.godot/imported/key_blue.png-6f0bd9f79a1a856d72dc37016c07e934.ctex"
+path="res://.godot/imported/key_blue.png-27e56c57b61bc0e0aed9e3035b6386dd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Tiles/Default/key_blue.png"
-dest_files=["res://.godot/imported/key_blue.png-6f0bd9f79a1a856d72dc37016c07e934.ctex"]
+source_file="res://Assets/Sprites/Tiles/Default/key_blue.png"
+dest_files=["res://.godot/imported/key_blue.png-27e56c57b61bc0e0aed9e3035b6386dd.ctex"]
 
 [params]
 

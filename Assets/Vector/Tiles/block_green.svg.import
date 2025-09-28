@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://comyw4lf364k0"
-path="res://.godot/imported/block_green.svg-b427f82e73096ad8922910dbdd182dbb.ctex"
+path="res://.godot/imported/block_green.svg-4991b15dc68f727f5c5e05360983a40b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vector/Tiles/block_green.svg"
-dest_files=["res://.godot/imported/block_green.svg-b427f82e73096ad8922910dbdd182dbb.ctex"]
+source_file="res://Assets/Vector/Tiles/block_green.svg"
+dest_files=["res://.godot/imported/block_green.svg-4991b15dc68f727f5c5e05360983a40b.ctex"]
 
 [params]
 

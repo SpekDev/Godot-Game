@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bxqqcpp5sh3a"
-path="res://.godot/imported/character_beige_idle.svg-957afaaec3a7eaa37f1365bf73e77ba3.ctex"
+path="res://.godot/imported/character_beige_idle.svg-904f7d7c592c587766929ca5d9541e7a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vector/Characters/character_beige_idle.svg"
-dest_files=["res://.godot/imported/character_beige_idle.svg-957afaaec3a7eaa37f1365bf73e77ba3.ctex"]
+source_file="res://Assets/Vector/Characters/character_beige_idle.svg"
+dest_files=["res://.godot/imported/character_beige_idle.svg-904f7d7c592c587766929ca5d9541e7a.ctex"]
 
 [params]
 

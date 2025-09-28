@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ctl2v2ugu3kxl"
-path="res://.godot/imported/background_fade_mushrooms.svg-320ce141ea1b26509aac654911f67b51.ctex"
+path="res://.godot/imported/background_fade_mushrooms.svg-61d61a19fe1038222650d5af99cf178d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vector/Backgrounds/background_fade_mushrooms.svg"
-dest_files=["res://.godot/imported/background_fade_mushrooms.svg-320ce141ea1b26509aac654911f67b51.ctex"]
+source_file="res://Assets/Vector/Backgrounds/background_fade_mushrooms.svg"
+dest_files=["res://.godot/imported/background_fade_mushrooms.svg-61d61a19fe1038222650d5af99cf178d.ctex"]
 
 [params]
 

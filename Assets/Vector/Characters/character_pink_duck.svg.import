@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://kh0yoh3jbxrm"
-path="res://.godot/imported/character_pink_duck.svg-90373414c12480d72302b66e12b93640.ctex"
+path="res://.godot/imported/character_pink_duck.svg-4e855c526c1633e63aa29f389e1d7816.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vector/Characters/character_pink_duck.svg"
-dest_files=["res://.godot/imported/character_pink_duck.svg-90373414c12480d72302b66e12b93640.ctex"]
+source_file="res://Assets/Vector/Characters/character_pink_duck.svg"
+dest_files=["res://.godot/imported/character_pink_duck.svg-4e855c526c1633e63aa29f389e1d7816.ctex"]
 
 [params]
 

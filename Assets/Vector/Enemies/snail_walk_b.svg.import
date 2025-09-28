@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dlk8tsj2qdpbd"
-path="res://.godot/imported/snail_walk_b.svg-3bbdfa2039b19f07bc49e73e11c68a2c.ctex"
+path="res://.godot/imported/snail_walk_b.svg-767003912d0e2fe5cd7145e463a16a35.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vector/Enemies/snail_walk_b.svg"
-dest_files=["res://.godot/imported/snail_walk_b.svg-3bbdfa2039b19f07bc49e73e11c68a2c.ctex"]
+source_file="res://Assets/Vector/Enemies/snail_walk_b.svg"
+dest_files=["res://.godot/imported/snail_walk_b.svg-767003912d0e2fe5cd7145e463a16a35.ctex"]
 
 [params]
 

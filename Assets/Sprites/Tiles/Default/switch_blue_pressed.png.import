@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://8y8t0cjnsjq7"
-path="res://.godot/imported/switch_blue_pressed.png-fa74caf501540d1e6fe35dd9a5960c89.ctex"
+path="res://.godot/imported/switch_blue_pressed.png-79c36ad004366b3e81c7d5caf12fa120.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Tiles/Default/switch_blue_pressed.png"
-dest_files=["res://.godot/imported/switch_blue_pressed.png-fa74caf501540d1e6fe35dd9a5960c89.ctex"]
+source_file="res://Assets/Sprites/Tiles/Default/switch_blue_pressed.png"
+dest_files=["res://.godot/imported/switch_blue_pressed.png-79c36ad004366b3e81c7d5caf12fa120.ctex"]
 
 [params]
 

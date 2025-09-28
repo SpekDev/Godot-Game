@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0vosf7qgjpf3"
-path="res://.godot/imported/block_fall.png-2dd271aac13e52a57dc2f58541992e41.ctex"
+path="res://.godot/imported/block_fall.png-cc734fee8c0257402a7e5f5231550223.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Enemies/Default/block_fall.png"
-dest_files=["res://.godot/imported/block_fall.png-2dd271aac13e52a57dc2f58541992e41.ctex"]
+source_file="res://Assets/Sprites/Enemies/Default/block_fall.png"
+dest_files=["res://.godot/imported/block_fall.png-cc734fee8c0257402a7e5f5231550223.ctex"]
 
 [params]
 

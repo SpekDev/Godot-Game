@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bspc7d7573lub"
-path="res://.godot/imported/bee_a.svg-b1bed298fb4950d42ae30b6e7fd7baef.ctex"
+path="res://.godot/imported/bee_a.svg-d7176487fddfaabec2bd7d8f43beb864.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vector/Enemies/bee_a.svg"
-dest_files=["res://.godot/imported/bee_a.svg-b1bed298fb4950d42ae30b6e7fd7baef.ctex"]
+source_file="res://Assets/Vector/Enemies/bee_a.svg"
+dest_files=["res://.godot/imported/bee_a.svg-d7176487fddfaabec2bd7d8f43beb864.ctex"]
 
 [params]
 

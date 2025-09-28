@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cmxtbl2w6p0cj"
-path="res://.godot/imported/worm_ring_move_b.png-19e4b7e3d18eb3ba5d20e378bf9baeb1.ctex"
+path="res://.godot/imported/worm_ring_move_b.png-dff867da7f814ba1c998ca25075926ca.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Enemies/Double/worm_ring_move_b.png"
-dest_files=["res://.godot/imported/worm_ring_move_b.png-19e4b7e3d18eb3ba5d20e378bf9baeb1.ctex"]
+source_file="res://Assets/Sprites/Enemies/Double/worm_ring_move_b.png"
+dest_files=["res://.godot/imported/worm_ring_move_b.png-dff867da7f814ba1c998ca25075926ca.ctex"]
 
 [params]
 

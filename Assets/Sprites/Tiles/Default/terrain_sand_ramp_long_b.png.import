@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cib768wbswa6i"
-path="res://.godot/imported/terrain_sand_ramp_long_b.png-b842bb1145831b9f8e1c8ed12c8848c9.ctex"
+path="res://.godot/imported/terrain_sand_ramp_long_b.png-9afccc99b7043e7c312bd619c5f29a84.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Tiles/Default/terrain_sand_ramp_long_b.png"
-dest_files=["res://.godot/imported/terrain_sand_ramp_long_b.png-b842bb1145831b9f8e1c8ed12c8848c9.ctex"]
+source_file="res://Assets/Sprites/Tiles/Default/terrain_sand_ramp_long_b.png"
+dest_files=["res://.godot/imported/terrain_sand_ramp_long_b.png-9afccc99b7043e7c312bd619c5f29a84.ctex"]
 
 [params]
 

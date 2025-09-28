@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ci16wkas8nr5m"
-path="res://.godot/imported/character_yellow_climb_b.png-7f7713f1b140f83b91f92d69ed1062eb.ctex"
+path="res://.godot/imported/character_yellow_climb_b.png-80ee51dbb2e3f17e64249300c60632aa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Characters/Double/character_yellow_climb_b.png"
-dest_files=["res://.godot/imported/character_yellow_climb_b.png-7f7713f1b140f83b91f92d69ed1062eb.ctex"]
+source_file="res://Assets/Sprites/Characters/Double/character_yellow_climb_b.png"
+dest_files=["res://.godot/imported/character_yellow_climb_b.png-80ee51dbb2e3f17e64249300c60632aa.ctex"]
 
 [params]
 

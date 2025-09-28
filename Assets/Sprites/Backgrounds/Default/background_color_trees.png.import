@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b77mpv66cuivj"
-path="res://.godot/imported/background_color_trees.png-00d251298e12585a34bc0e994769a42d.ctex"
+path="res://.godot/imported/background_color_trees.png-50d82c36d45aa436f80b3fe0e4004fe0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Backgrounds/Default/background_color_trees.png"
-dest_files=["res://.godot/imported/background_color_trees.png-00d251298e12585a34bc0e994769a42d.ctex"]
+source_file="res://Assets/Sprites/Backgrounds/Default/background_color_trees.png"
+dest_files=["res://.godot/imported/background_color_trees.png-50d82c36d45aa436f80b3fe0e4004fe0.ctex"]
 
 [params]
 

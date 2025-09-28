@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://doo0qaqndtwiw"
-path="res://.godot/imported/lock_yellow.png-ea6078c8c0cdbc62dbe8d9f1e4a1041d.ctex"
+path="res://.godot/imported/lock_yellow.png-65fa987714c7a29ee6e02eae877c8621.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Tiles/Default/lock_yellow.png"
-dest_files=["res://.godot/imported/lock_yellow.png-ea6078c8c0cdbc62dbe8d9f1e4a1041d.ctex"]
+source_file="res://Assets/Sprites/Tiles/Default/lock_yellow.png"
+dest_files=["res://.godot/imported/lock_yellow.png-65fa987714c7a29ee6e02eae877c8621.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mep0xobnxfi7"
-path="res://.godot/imported/hud_player_helmet_pink.svg-62ee2f9d690a6f2dc489d60805bd8e59.ctex"
+path="res://.godot/imported/hud_player_helmet_pink.svg-7d6b07109a6eb5be734c30c392b047fa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vector/Tiles/hud_player_helmet_pink.svg"
-dest_files=["res://.godot/imported/hud_player_helmet_pink.svg-62ee2f9d690a6f2dc489d60805bd8e59.ctex"]
+source_file="res://Assets/Vector/Tiles/hud_player_helmet_pink.svg"
+dest_files=["res://.godot/imported/hud_player_helmet_pink.svg-7d6b07109a6eb5be734c30c392b047fa.ctex"]
 
 [params]
 

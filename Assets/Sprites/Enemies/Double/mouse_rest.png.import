@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c7pqyl2pmf07p"
-path="res://.godot/imported/mouse_rest.png-5e4a160927b8e14661904800148319a3.ctex"
+path="res://.godot/imported/mouse_rest.png-999707e3dd8cccc385f7a97f149fad40.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Enemies/Double/mouse_rest.png"
-dest_files=["res://.godot/imported/mouse_rest.png-5e4a160927b8e14661904800148319a3.ctex"]
+source_file="res://Assets/Sprites/Enemies/Double/mouse_rest.png"
+dest_files=["res://.godot/imported/mouse_rest.png-999707e3dd8cccc385f7a97f149fad40.ctex"]
 
 [params]
 

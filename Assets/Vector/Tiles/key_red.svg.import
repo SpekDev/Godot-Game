@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c5ti4q0vayow5"
-path="res://.godot/imported/key_red.svg-7bcc70b7460ee14c33333ee7a463c3b5.ctex"
+path="res://.godot/imported/key_red.svg-1abef4ef31b241e0056e6478263258e5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vector/Tiles/key_red.svg"
-dest_files=["res://.godot/imported/key_red.svg-7bcc70b7460ee14c33333ee7a463c3b5.ctex"]
+source_file="res://Assets/Vector/Tiles/key_red.svg"
+dest_files=["res://.godot/imported/key_red.svg-1abef4ef31b241e0056e6478263258e5.ctex"]
 
 [params]
 

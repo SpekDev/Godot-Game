@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c10ftj2aygiym"
-path="res://.godot/imported/block_coin.svg-384d48db3804372d643d5f15ccb5efc9.ctex"
+path="res://.godot/imported/block_coin.svg-ec0a6fb28023dc507657bcbea1241907.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vector/Tiles/block_coin.svg"
-dest_files=["res://.godot/imported/block_coin.svg-384d48db3804372d643d5f15ccb5efc9.ctex"]
+source_file="res://Assets/Vector/Tiles/block_coin.svg"
+dest_files=["res://.godot/imported/block_coin.svg-ec0a6fb28023dc507657bcbea1241907.ctex"]
 
 [params]
 

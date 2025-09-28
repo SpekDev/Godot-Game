@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://scl7el43xj6d"
-path="res://.godot/imported/background_fade_hills.svg-2af708f226fdae380b0a289570c75294.ctex"
+path="res://.godot/imported/background_fade_hills.svg-2f026f36da128f9d63528b7474d4db36.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vector/Backgrounds/background_fade_hills.svg"
-dest_files=["res://.godot/imported/background_fade_hills.svg-2af708f226fdae380b0a289570c75294.ctex"]
+source_file="res://Assets/Vector/Backgrounds/background_fade_hills.svg"
+dest_files=["res://.godot/imported/background_fade_hills.svg-2f026f36da128f9d63528b7474d4db36.ctex"]
 
 [params]
 

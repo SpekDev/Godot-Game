@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://chq5t2rbb06ui"
-path="res://.godot/imported/character_beige_walk_a.png-31166804c5fe50b2d62b697de8046077.ctex"
+path="res://.godot/imported/character_beige_walk_a.png-b64424763f22cd4e689ae9ba79722a7a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Characters/Double/character_beige_walk_a.png"
-dest_files=["res://.godot/imported/character_beige_walk_a.png-31166804c5fe50b2d62b697de8046077.ctex"]
+source_file="res://Assets/Sprites/Characters/Double/character_beige_walk_a.png"
+dest_files=["res://.godot/imported/character_beige_walk_a.png-b64424763f22cd4e689ae9ba79722a7a.ctex"]
 
 [params]
 

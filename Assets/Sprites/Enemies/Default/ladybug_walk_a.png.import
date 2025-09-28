@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cicfa4bgml4o5"
-path="res://.godot/imported/ladybug_walk_a.png-f5e39a360d413aaecbe8284a349b1c85.ctex"
+path="res://.godot/imported/ladybug_walk_a.png-1487b5d7dac8b380a7b0a3786d74646c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Enemies/Default/ladybug_walk_a.png"
-dest_files=["res://.godot/imported/ladybug_walk_a.png-f5e39a360d413aaecbe8284a349b1c85.ctex"]
+source_file="res://Assets/Sprites/Enemies/Default/ladybug_walk_a.png"
+dest_files=["res://.godot/imported/ladybug_walk_a.png-1487b5d7dac8b380a7b0a3786d74646c.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://g02jx5aqes50"
-path="res://.godot/imported/hud_heart.png-6a2a01054c993df3c65dda974e37a01f.ctex"
+path="res://.godot/imported/hud_heart.png-d72708dcf882bfc4e42eadd9e31d98d2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Tiles/Default/hud_heart.png"
-dest_files=["res://.godot/imported/hud_heart.png-6a2a01054c993df3c65dda974e37a01f.ctex"]
+source_file="res://Assets/Sprites/Tiles/Default/hud_heart.png"
+dest_files=["res://.godot/imported/hud_heart.png-d72708dcf882bfc4e42eadd9e31d98d2.ctex"]
 
 [params]
 

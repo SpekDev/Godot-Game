@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://btkfd4jbmykif"
-path="res://.godot/imported/mouse_walk_b.png-e454ad4cf1ee907048a16c3dcadc14b1.ctex"
+path="res://.godot/imported/mouse_walk_b.png-78a30ac5a425674c37e4c573612eb409.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Enemies/Default/mouse_walk_b.png"
-dest_files=["res://.godot/imported/mouse_walk_b.png-e454ad4cf1ee907048a16c3dcadc14b1.ctex"]
+source_file="res://Assets/Sprites/Enemies/Default/mouse_walk_b.png"
+dest_files=["res://.godot/imported/mouse_walk_b.png-78a30ac5a425674c37e4c573612eb409.ctex"]
 
 [params]
 

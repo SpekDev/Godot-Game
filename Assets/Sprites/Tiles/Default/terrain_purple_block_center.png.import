@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0x108wrw135k"
-path="res://.godot/imported/terrain_purple_block_center.png-6908d260d61feef8249e6a825c9dbfda.ctex"
+path="res://.godot/imported/terrain_purple_block_center.png-1a7e9107a3bc9e2fca1c00708a303788.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Tiles/Default/terrain_purple_block_center.png"
-dest_files=["res://.godot/imported/terrain_purple_block_center.png-6908d260d61feef8249e6a825c9dbfda.ctex"]
+source_file="res://Assets/Sprites/Tiles/Default/terrain_purple_block_center.png"
+dest_files=["res://.godot/imported/terrain_purple_block_center.png-1a7e9107a3bc9e2fca1c00708a303788.ctex"]
 
 [params]
 

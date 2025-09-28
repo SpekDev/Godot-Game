@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://r001u2rduq7o"
-path="res://.godot/imported/fish_yellow_rest.png-038b28efa7e6c913e0cd61496128f47c.ctex"
+path="res://.godot/imported/fish_yellow_rest.png-c8223062e67338fa205fe067c5a80bf9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Enemies/Double/fish_yellow_rest.png"
-dest_files=["res://.godot/imported/fish_yellow_rest.png-038b28efa7e6c913e0cd61496128f47c.ctex"]
+source_file="res://Assets/Sprites/Enemies/Double/fish_yellow_rest.png"
+dest_files=["res://.godot/imported/fish_yellow_rest.png-c8223062e67338fa205fe067c5a80bf9.ctex"]
 
 [params]
 

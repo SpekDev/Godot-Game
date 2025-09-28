@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cexa5k2i0cdji"
-path="res://.godot/imported/terrain_dirt_ramp_short_a.png-ddebbcf8fc6d3586dc8ea3b103bf58a5.ctex"
+path="res://.godot/imported/terrain_dirt_ramp_short_a.png-e85cc281ac3ea6ea14b35a40fc188e35.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Sprites/Tiles/Default/terrain_dirt_ramp_short_a.png"
-dest_files=["res://.godot/imported/terrain_dirt_ramp_short_a.png-ddebbcf8fc6d3586dc8ea3b103bf58a5.ctex"]
+source_file="res://Assets/Sprites/Tiles/Default/terrain_dirt_ramp_short_a.png"
+dest_files=["res://.godot/imported/terrain_dirt_ramp_short_a.png-e85cc281ac3ea6ea14b35a40fc188e35.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://djxolxo4pcx1k"
-path="res://.godot/imported/flag_off.svg-de5b078d04e52b11be10a5d86f2e2ba6.ctex"
+path="res://.godot/imported/flag_off.svg-402173e4bb994329cc5b7433fcef690e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vector/Tiles/flag_off.svg"
-dest_files=["res://.godot/imported/flag_off.svg-de5b078d04e52b11be10a5d86f2e2ba6.ctex"]
+source_file="res://Assets/Vector/Tiles/flag_off.svg"
+dest_files=["res://.godot/imported/flag_off.svg-402173e4bb994329cc5b7433fcef690e.ctex"]
 
 [params]
 

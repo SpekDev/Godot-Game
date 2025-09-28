@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://caskco6ss0cb5"
-path="res://.godot/imported/hud_player_beige.svg-ac64f5e8189453a13565537ea89adc06.ctex"
+path="res://.godot/imported/hud_player_beige.svg-15b07de50fbdda212bc450cd60edc220.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Vector/Tiles/hud_player_beige.svg"
-dest_files=["res://.godot/imported/hud_player_beige.svg-ac64f5e8189453a13565537ea89adc06.ctex"]
+source_file="res://Assets/Vector/Tiles/hud_player_beige.svg"
+dest_files=["res://.godot/imported/hud_player_beige.svg-15b07de50fbdda212bc450cd60edc220.ctex"]
 
 [params]
 
