@@ -29,8 +29,9 @@ scale = Vector2(0.114426, 12.0639)
 
 [node name="Player" parent="." instance=ExtResource("2_y0acb")]
 position = Vector2(197, -61)
-jumpForce = 300
+movementSpeed = 500
+jumpForce = 500
 gravity = 800
-dashForce = 500
+dashForce = 1300
 
 [node name="Camera2D" type="Camera2D" parent="Player"]

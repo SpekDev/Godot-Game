@@ -3,10 +3,11 @@ extends CharacterBody2D
 @export var movementSpeed: int = 300
 @export var jumpForce: int = 2000
 @export var gravity := 500
-@export var dashForce := 300
+@export var dashForce := 1000
 var isDashing :bool = false
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 @onready var dash_timer: Timer = $"dash timer"
+var facingLeft := false
 
 
 
@@ -29,7 +30,9 @@ func _physics_process(delta: float) -> void:
 	if Input.is_action_pressed("left"):
 		direction.x += -1
 	
-	if not isDashing:
+	if isDashing:
+		pass
+	else:
 		velocity.x = direction.x * movementSpeed 
 	
 	if Input.is_action_pressed("up") and is_on_floor():
@@ -37,7 +40,7 @@ func _physics_process(delta: float) -> void:
 		animated_sprite_2d.animation = "jump" #jump animations
 	
 	# Apply gravity
-	if not is_on_floor():
+	if not is_on_floor() && isDashing == false:
 		velocity.y += gravity * delta
 		
 	
@@ -48,13 +51,19 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 	
 	#flipping character
-	var isLeft = velocity.x < 0
-	animated_sprite_2d.flip_h = isLeft
+
+	if velocity.x < 0:
+		facingLeft = true
+	elif velocity.x > 0:
+		facingLeft = false
+
+	animated_sprite_2d.flip_h = facingLeft
 
 #dashing
 func dash(direction: Vector2) -> void:
 	isDashing = true
 	print(isDashing)
+	print(dashForce)
 	velocity = direction * dashForce
 	dash_timer.start()
 
