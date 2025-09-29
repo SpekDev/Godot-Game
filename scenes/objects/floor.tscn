@@ -3,7 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://dynrxvekc8kpu" path="res://assets/icon.svg" id="1_oj3tl"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cgngl"]
-size = Vector2(753, 58)
+size = Vector2(799, 58)
 
 [node name="floor" type="StaticBody2D"]
 

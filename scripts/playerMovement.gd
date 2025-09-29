@@ -1,12 +1,17 @@
 extends CharacterBody2D
-
-@export var movementSpeed: int = 300
-@export var jumpForce: int = 2000
+#player properties
+@export var movementSpeed: int = 500
+@export var jumpForce: int = 500
 @export var gravity := 500
 @export var dashForce := 1000
+#dashing varibables
 var isDashing :bool = false
+var canDash :bool = true
+#node refferences
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 @onready var dash_timer: Timer = $"dash timer"
+@onready var dash_cooldown: Timer = $"dash  cooldown"
+#player flipping
 var facingLeft := false
 
 
@@ -38,20 +43,20 @@ func _physics_process(delta: float) -> void:
 	if Input.is_action_pressed("up") and is_on_floor():
 		velocity.y = -jumpForce
 		animated_sprite_2d.animation = "jump" #jump animations
+		print(jumpForce)
 	
 	# Apply gravity
 	if not is_on_floor() && isDashing == false:
 		velocity.y += gravity * delta
 		
-	
-	if Input.is_action_just_pressed("dash") and direction.x != 0 && isDashing != true:
+	#dash input
+	if Input.is_action_just_pressed("dash") and direction.x != 0 && isDashing != true && canDash:
 		dash(direction)
 
 		
 	move_and_slide()
 	
 	#flipping character
-
 	if velocity.x < 0:
 		facingLeft = true
 	elif velocity.x > 0:
@@ -66,7 +71,14 @@ func dash(direction: Vector2) -> void:
 	print(dashForce)
 	velocity = direction * dashForce
 	dash_timer.start()
+	dash_cooldown.start()
+	canDash = false
 
 func _on_dash_timer_timeout() -> void:
 	isDashing = false
 	print(isDashing)
+
+
+func _on_dash__cooldown_timeout() -> void:
+	canDash = true
+	print(canDash)
