@@ -2,7 +2,7 @@ extends CharacterBody2D
 #player properties
 @export var movementSpeed: int = 500
 @export var jumpForce: int = 500
-@export var gravity := 500
+@export var gravity := 1000
 @export var dashForce := 1000
 #dashing varibables
 var isDashing :bool = false
@@ -11,6 +11,7 @@ var canDash :bool = true
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 @onready var dash_timer: Timer = $"dash timer"
 @onready var dash_cooldown: Timer = $"dash  cooldown"
+var timeframe := "present"
 #player flipping
 var facingLeft := false
 
@@ -21,10 +22,11 @@ var facingLeft := false
 func _physics_process(delta: float) -> void:
 	#animations
 	if velocity.x > 1 && is_on_floor() || velocity.x < -1 && is_on_floor():
-		animated_sprite_2d.animation = "run"
+		animated_sprite_2d.animation = timeframe + "_run"
+		animated_sprite_2d.play(timeframe + "_run")
 	
 	elif velocity.x == 0 && velocity.y == 0:
-		animated_sprite_2d.animation = "idle"	
+		animated_sprite_2d.animation = timeframe + "_idle"
 
 	
 	#player movement
@@ -39,14 +41,16 @@ func _physics_process(delta: float) -> void:
 		pass
 	else:
 		velocity.x = direction.x * movementSpeed 
-	
+	#jump
 	if Input.is_action_pressed("up") and is_on_floor():
 		velocity.y = -jumpForce
-		animated_sprite_2d.animation = "jump" #jump animations
+		animated_sprite_2d.animation = timeframe + "_jump" #jump animations
+		gravity = 1000							
 		print(jumpForce)
 	
 	# Apply gravity
 	if not is_on_floor() && isDashing == false:
+		gravity += 1
 		velocity.y += gravity * delta
 		
 	#dash input

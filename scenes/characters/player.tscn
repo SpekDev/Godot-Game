@@ -21,12 +21,32 @@ region = Rect2(0, 384, 128, 128)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_kqtwu"]
 animations = [{
+"frames": [],
+"loop": true,
+"name": &"future_idle",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"future_jump",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"future_run",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"present_fall",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_76oj4")
 }],
 "loop": false,
-"name": &"idle",
+"name": &"present_idle",
 "speed": 5.0
 }, {
 "frames": [{
@@ -34,7 +54,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_yewv4")
 }],
 "loop": true,
-"name": &"jump",
+"name": &"present_jump",
 "speed": 5.0
 }, {
 "frames": [{
@@ -45,7 +65,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_atpat")
 }],
 "loop": true,
-"name": &"run",
+"name": &"present_run",
 "speed": 10.0
 }]
 
@@ -55,12 +75,10 @@ height = 72.0
 
 [node name="Player" type="CharacterBody2D"]
 script = ExtResource("1_onrkg")
-jumpForce = 300
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_kqtwu")
-animation = &"run"
-frame_progress = 0.880122
+animation = &"present_fall"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 20)

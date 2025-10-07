@@ -28,5 +28,6 @@ position = Vector2(3114, -533)
 scale = Vector2(0.114426, 12.0639)
 
 [node name="Player" parent="." instance=ExtResource("2_y0acb")]
+jumpForce = 500
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
