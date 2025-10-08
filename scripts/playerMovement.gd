@@ -4,19 +4,56 @@ extends CharacterBody2D
 @export var jumpForce: int = 500
 @export var gravity := 1000
 @export var dashForce := 1000
+const PUSH_FORCE := 15
+const MIN_PUSH_FORCE := 15
 #dashing varibables
 var isDashing :bool = false
 var canDash :bool = true
 #node refferences
+@onready var label: Label = $"../Label"
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 @onready var dash_timer: Timer = $"dash timer"
 @onready var dash_cooldown: Timer = $"dash  cooldown"
 var timeframe := "present"
+# tilemaps
+@onready var future_tilemap: TileMapLayer = $"../../future/future tilemap"
+@onready var present_tilemap: TileMapLayer = $"../present tilemap"
+
+
 #player flipping
 var facingLeft := false
+#spawn pos
+var spawn_position: Vector2
 
+func _ready() -> void:
+	spawn_position = position
+	future_tilemap.visible = false
+	present_tilemap.visible = true
+func _input(event: InputEvent) -> void:
+	
+	# timeframe switching
+	if Input.is_action_just_pressed("timejump"):
+		if timeframe == "present":
+			timeframe = "future"
+			position = spawn_position
+			future_tilemap.visible = true
+			present_tilemap.visible = false
+			#label.text = "future"
+			
+		elif timeframe == "future":
+			timeframe = "present"
+			position = spawn_position
+			future_tilemap.visible = false
+			present_tilemap.visible = true
+			#label.text = "present"
+			
+		# timeframe collisions
+		if timeframe == "present":
+			collision_mask = 1 << 0  # layer 1 (bit 0)
+		elif timeframe == "future":
+			collision_mask = 1 << 1  # layer 2 (bit 1)
 
-
+			
 
 
 func _physics_process(delta: float) -> void:
@@ -60,6 +97,13 @@ func _physics_process(delta: float) -> void:
 		
 	move_and_slide()
 	
+	#pusing objects
+	for object in get_slide_collision_count():
+		var collision = get_slide_collision(object)
+		if collision.get_collider() is RigidBody2D:
+			var pushForce = (PUSH_FORCE * velocity.length() / movementSpeed) + MIN_PUSH_FORCE
+			collision.get_collider().apply_impulse(-collision.get_normal() * pushForce)
+	
 	#flipping character
 	if velocity.x < 0:
 		facingLeft = true
@@ -71,6 +115,7 @@ func _physics_process(delta: float) -> void:
 #dashing
 func dash(direction: Vector2) -> void:
 	isDashing = true
+	animated_sprite_2d.animation = timeframe + "_dash"
 	print(isDashing)
 	print(dashForce)
 	velocity = direction * dashForce

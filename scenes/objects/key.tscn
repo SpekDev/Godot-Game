@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://bb7gjc2ebmhhi"]
+
+[ext_resource type="Texture2D" uid="uid://xpwe5xkt2oox" path="res://assets/Sprites/Tiles/Default/key_yellow.png" id="1_yhuoy"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_yhuoy"]
+friction = 0.26
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yhuoy"]
+size = Vector2(50, 39)
+
+[node name="RigidBody2D" type="RigidBody2D"]
+disable_mode = 2
+physics_material_override = SubResource("PhysicsMaterial_yhuoy")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_yhuoy")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -0.5)
+shape = SubResource("RectangleShape2D_yhuoy")
+debug_color = Color(1.01075e-06, 0.628415, 0.492586, 0.42)
