@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://dj46s3ywcuvkg"]
 
-[ext_resource type="Script" uid="uid://lhll8dmbw0l4" path="res://door.gd" id="1_0phs7"]
+[ext_resource type="Script" uid="uid://lhll8dmbw0l4" path="res://scripts/door.gd" id="1_0phs7"]
 [ext_resource type="Texture2D" uid="uid://gqtvjhedivcg" path="res://assets/Vector/Tiles/door_closed.svg" id="1_v6xrn"]
 [ext_resource type="Texture2D" uid="uid://cidj1iv3tyno2" path="res://assets/Vector/Tiles/door_open.svg" id="2_0phs7"]
 
@@ -11,22 +11,24 @@ size = Vector2(64, 64)
 radius = 88.8144
 
 [node name="door" type="StaticBody2D"]
+collision_layer = 3
+collision_mask = 3
 script = ExtResource("1_0phs7")
 
-[node name="open" type="Sprite2D" parent="."]
+[node name="closed" type="Sprite2D" parent="."]
 texture = ExtResource("1_v6xrn")
 
-[node name="closed" type="Sprite2D" parent="."]
+[node name="open" type="Sprite2D" parent="."]
 texture = ExtResource("2_0phs7")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_50cdl")
 debug_color = Color(0.850202, 0.322744, 0.491156, 0.42)
 
-[node name="Area2D" type="Area2D" parent="."]
+[node name="open range" type="Area2D" parent="."]
 
-[node name="opening range" type="CollisionShape2D" parent="Area2D"]
+[node name="opening range" type="CollisionShape2D" parent="open range"]
 shape = SubResource("CircleShape2D_50cdl")
 debug_color = Color(4.81307e-07, 0.625437, 0.520203, 0.42)
 
-[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
+[connection signal="body_entered" from="open range" to="." method="_on_open_range_body_entered"]

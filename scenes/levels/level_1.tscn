@@ -1,20 +1,21 @@
-[gd_scene load_steps=22 format=4 uid="uid://d3s0w245l5d33"]
+[gd_scene load_steps=23 format=4 uid="uid://d3s0w245l5d33"]
 
-[ext_resource type="Texture2D" uid="uid://cfc84lrwhnktt" path="res://assets/Sprites/Backgrounds/Default/background_color_mushrooms.png" id="1_ibugp"]
-[ext_resource type="Texture2D" uid="uid://bspv1f420dr03" path="res://assets/tilemaps/blocks/marble.png" id="1_qpwj6"]
-[ext_resource type="Texture2D" uid="uid://2fku8f0ok2dr" path="res://assets/tilemaps/blocks/rock.png" id="2_ibugp"]
-[ext_resource type="Texture2D" uid="uid://cyonkdk2jnotu" path="res://assets/Vector/Backgrounds/background_clouds.svg" id="2_qsp8v"]
-[ext_resource type="PackedScene" uid="uid://o706nv3q8rlv" path="res://scenes/characters/player.tscn" id="2_ra442"]
-[ext_resource type="Texture2D" uid="uid://b5jwtcgtl7637" path="res://assets/tilemaps/blocks/sand.png" id="3_8qukl"]
-[ext_resource type="Texture2D" uid="uid://bt5bx3fcocm5j" path="res://assets/tilemaps/blocks/stone.png" id="4_3p04p"]
-[ext_resource type="Texture2D" uid="uid://cxu2ebkpgulsj" path="res://assets/tilemaps/industrial.png" id="6_3p04p"]
-[ext_resource type="PackedScene" uid="uid://bb7gjc2ebmhhi" path="res://scenes/objects/key.tscn" id="6_qsp8v"]
-[ext_resource type="Texture2D" uid="uid://blhfx6ar3c36w" path="res://assets/tilemaps/tilemap.png" id="7_qsp8v"]
-[ext_resource type="PackedScene" uid="uid://bd3hn2r4r6ivo" path="res://scenes/objects/label.tscn" id="11_nt80m"]
-[ext_resource type="PackedScene" uid="uid://dj46s3ywcuvkg" path="res://scenes/objects/door.tscn" id="12_brxtv"]
+[ext_resource type="Texture2D" uid="uid://cyonkdk2jnotu" path="res://assets/Vector/Backgrounds/background_clouds.svg" id="1_dnkej"]
+[ext_resource type="Texture2D" uid="uid://cxu2ebkpgulsj" path="res://assets/tilemaps/industrial.png" id="2_mm8aj"]
+[ext_resource type="Texture2D" uid="uid://blhfx6ar3c36w" path="res://assets/tilemaps/tilemap.png" id="3_wtwp4"]
+[ext_resource type="Texture2D" uid="uid://bspv1f420dr03" path="res://assets/tilemaps/blocks/marble.png" id="4_iwr0g"]
+[ext_resource type="Texture2D" uid="uid://cfc84lrwhnktt" path="res://assets/Sprites/Backgrounds/Default/background_color_mushrooms.png" id="5_bahl2"]
+[ext_resource type="Texture2D" uid="uid://2fku8f0ok2dr" path="res://assets/tilemaps/blocks/rock.png" id="6_np2pn"]
+[ext_resource type="Texture2D" uid="uid://b5jwtcgtl7637" path="res://assets/tilemaps/blocks/sand.png" id="7_v6ha0"]
+[ext_resource type="Texture2D" uid="uid://bt5bx3fcocm5j" path="res://assets/tilemaps/blocks/stone.png" id="8_gmpev"]
+[ext_resource type="PackedScene" uid="uid://bd3hn2r4r6ivo" path="res://scenes/objects/label.tscn" id="9_mkypq"]
+[ext_resource type="PackedScene" uid="uid://bb7gjc2ebmhhi" path="res://scenes/objects/key.tscn" id="10_ndtll"]
+[ext_resource type="PackedScene" uid="uid://dj46s3ywcuvkg" path="res://scenes/objects/door.tscn" id="11_7h2jl"]
+[ext_resource type="PackedScene" uid="uid://ceriofemyt1bh" path="res://scenes/objects/next level.tscn" id="12_mqh5v"]
+[ext_resource type="PackedScene" uid="uid://o706nv3q8rlv" path="res://scenes/characters/player.tscn" id="13_7o3do"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1yj8c"]
-texture = ExtResource("6_3p04p")
+texture = ExtResource("2_mm8aj")
 separation = Vector2i(1, 1)
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
@@ -145,7 +146,7 @@ texture_region_size = Vector2i(18, 18)
 15:6/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ndlae"]
-texture = ExtResource("7_qsp8v")
+texture = ExtResource("3_wtwp4")
 separation = Vector2i(1, 1)
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
@@ -339,7 +340,7 @@ texture_region_size = Vector2i(18, 18)
 20:8/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v8d84"]
-texture = ExtResource("1_qpwj6")
+texture = ExtResource("4_iwr0g")
 separation = Vector2i(1, 1)
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
@@ -433,7 +434,7 @@ sources/1 = SubResource("TileSetAtlasSource_ndlae")
 sources/2 = SubResource("TileSetAtlasSource_v8d84")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nt80m"]
-texture = ExtResource("1_qpwj6")
+texture = ExtResource("4_iwr0g")
 separation = Vector2i(1, 1)
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
@@ -538,7 +539,7 @@ texture_region_size = Vector2i(18, 18)
 9:9/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_brxtv"]
-texture = ExtResource("2_ibugp")
+texture = ExtResource("6_np2pn")
 separation = Vector2i(1, 1)
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
@@ -693,7 +694,7 @@ texture_region_size = Vector2i(18, 18)
 9:9/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tv7cl"]
-texture = ExtResource("3_8qukl")
+texture = ExtResource("7_v6ha0")
 separation = Vector2i(1, 1)
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
@@ -798,7 +799,7 @@ texture_region_size = Vector2i(18, 18)
 9:9/0 = 0
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_r88tb"]
-texture = ExtResource("4_3p04p")
+texture = ExtResource("8_gmpev")
 separation = Vector2i(1, 1)
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
@@ -956,14 +957,14 @@ sources/3 = SubResource("TileSetAtlasSource_brxtv")
 sources/1 = SubResource("TileSetAtlasSource_nt80m")
 sources/7 = SubResource("TileSetAtlasSource_r88tb")
 
-[node name="level 2" type="Node2D"]
+[node name="level 1" type="Node2D"]
 
 [node name="future" type="Node" parent="."]
 
 [node name="BackgroundClouds" type="Sprite2D" parent="future"]
 position = Vector2(13, 5)
-scale = Vector2(4.72266, 2.8125)
-texture = ExtResource("2_qsp8v")
+scale = Vector2(5.16266, 2.8125)
+texture = ExtResource("1_dnkej")
 
 [node name="future tilemap" type="TileMapLayer" parent="future"]
 scale = Vector2(3.5, 3.5)
@@ -975,8 +976,8 @@ tile_set = SubResource("TileSet_gw1l3")
 [node name="present background" type="Sprite2D" parent="present"]
 visible = false
 position = Vector2(11.25, -0.999985)
-scale = Vector2(4.56836, 2.53125)
-texture = ExtResource("1_ibugp")
+scale = Vector2(5.12836, 2.53125)
+texture = ExtResource("5_bahl2")
 
 [node name="present tilemap" type="TileMapLayer" parent="present"]
 visible = false
@@ -984,9 +985,9 @@ scale = Vector2(3.5, 3.5)
 tile_map_data = PackedByteArray("AAD3/wMAAwADAAMAAAD4/wMAAwAEAAMAAAD3/wQAAwADAAUAAAD4/wQAAwAEAAUAAAD5/wMAAwAFAAMAAAD5/wQAAwAFAAUAAAD7/wIABwAIAAAAAGD8/wEABwAIAAAAAGD9/wAABwAIAAAAAGD+////BwAIAAAAAGD8/wIABwAAAAAAAAD+/wAABwAAAAAAAAD7/wMABwAAAAAAAAD/////BwAHAAMAAAAAAP//BwAHAAMAAAACAP//BwAHAAMAAAADAP//BwAHAAMAAAAEAP//BwAIAAAAAAAIAAAABwAIAAMAAAAHAAAABwAHAAMAAAAIAAEABwAIAAQAAAAIAAIABwAIAAQAAAAIAAQABwAIAAUAAAAGAAQABwAHAAUAAAAHAAQABwAHAAUAAAD6/wMABwAHAAEAAAD//wIAAwABAAQAAAD//wEAAwAEAAQAAAAAAAEAAwAEAAQAAAAAAAIAAwAEAAQAAAABAAEAAwABAAQAAAABAAIAAwABAAQAAAACAAIAAwABAAQAAAACAAEAAwABAAcAAAADAAIAAwAHAAcAAAADAAEAAwABAAQAAAADAAAAAwABAAQAAAACAAQAAwAHAAUAAAABAAQAAwAHAAUAAAAAAAQAAwAHAAUAAAD8/wQAAwAHAAUAAAD8/wMAAwABAAQAAAD9/wMAAwABAAQAAAD9/wIAAwABAAQAAAD+/wMAAwAHAAcAAAD//wMAAwABAAcAAAACAAAAAwABAAQAAAABAAAAAwABAAQAAAAAAAAAAwABAAQAAAD//wAAAwABAAQAAAADAP7/BwAIAAAAAAACAP3/BwAIAAAAAAACAP7/BwAAAAAAAAABAPz/BwAIAAAAAAABAP3/BwABAAAAAAAFAAEABwAHAAQAAAAFAAIABQAEAAQAAAAGAAIABwAHAAQAAAAHAAIABQAEAAQAAAAGAAEABQAEAAQAAAAHAAEABwAHAAQAAAADAAQAAwAHAAUAAAAEAAAAAwAHAAMAAAAFAAAABQAHAAMAAAAEAAQABQAHAAUAAAAGAAAABwAHAAMAAAAFAAQABwAHAAUAAAAEAAIABQAHAAcAAAAEAAEABQABAAQAAAD+/wIAAwABAAQAAAD+/wEAAwABAAQAAAD9/wEABwAAAAAAAAD7/wQAAwAHAAAAADAIAAMABwAIAAQAAAAHAAMABwAHAAQAAAAGAAMABQAEAAQAAAAFAAMABwAHAAQAAAAEAAMABQABAAcAAAADAAMAAwABAAQAAAACAAMAAwAHAAcAAAABAAMAAwABAAQAAAAAAAMAAwABAAQAAAD//wQAAwAHAAUAAAD+/wQAAwAHAAUAAAD9/wQAAwAHAAUAAAA=")
 tile_set = SubResource("TileSet_1yj8c")
 
-[node name="objek" type="Node" parent="."]
+[node name="objects" type="Node" parent="."]
 
-[node name="Label" parent="objek" instance=ExtResource("11_nt80m")]
+[node name="Label" parent="objects" instance=ExtResource("9_mkypq")]
 offset_left = -81.0
 offset_top = -325.0
 offset_right = 456.0
@@ -994,23 +995,39 @@ offset_bottom = 7.0
 theme_override_colors/font_color = Color(0.311943, 0.727343, 0.45917, 1)
 theme_override_font_sizes/font_size = 49
 
-[node name="lvl1" type="Label" parent="objek"]
+[node name="lvl1" type="Label" parent="objects"]
 offset_left = -589.0
 offset_top = -352.0
 offset_right = -237.0
 offset_bottom = -158.0
 theme_override_colors/font_color = Color(0.311943, 0.727343, 0.45917, 1)
 theme_override_font_sizes/font_size = 33
-text = "dont havekey"
+text = "level 1"
 
-[node name="key" parent="objek" instance=ExtResource("6_qsp8v")]
-position = Vector2(-63, -85)
+[node name="key" parent="objects" instance=ExtResource("10_ndtll")]
+position = Vector2(27, -84)
+collision_layer = 3
+collision_mask = 3
 
-[node name="Player" parent="objek" instance=ExtResource("2_ra442")]
+[node name="door" parent="objects" instance=ExtResource("11_7h2jl")]
+position = Vector2(503, 166)
+scale = Vector2(1.86923, 2.68487)
+collision_layer = 2
+collision_mask = 2
+
+[node name="next level" parent="objects" instance=ExtResource("12_mqh5v")]
+position = Vector2(623, 156)
+scale = Vector2(0.5, 0.5)
+
+[node name="player" type="Node" parent="."]
+
+[node name="Player" parent="player" instance=ExtResource("13_7o3do")]
 position = Vector2(-465, 85)
 
-[node name="door" parent="objek" instance=ExtResource("12_brxtv")]
-position = Vector2(564, 166)
-scale = Vector2(1.86923, 2.68487)
+[node name="Camera2D" type="Camera2D" parent="player"]
+position = Vector2(40, 4)
+zoom = Vector2(0.91, 0.91)
 
-[node name="Camera2D" type="Camera2D" parent="."]
+[connection signal="door_opened" from="objects/door" to="player/Player" method="_on_door_door_opened"]
+[connection signal="key_pick" from="player/Player" to="objects/door" method="_on_player_key_pick"]
+[connection signal="timeframe_change" from="player/Player" to="objects/door" method="_on_player_timeframe_change"]

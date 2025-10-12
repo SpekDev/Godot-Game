@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://bb7gjc2ebmhhi"]
 
-[ext_resource type="Script" uid="uid://clncakhcqsvp4" path="res://scenes/objects/key.gd" id="1_tfk8p"]
+[ext_resource type="Script" uid="uid://clncakhcqsvp4" path="res://scripts/key.gd" id="1_tfk8p"]
 [ext_resource type="Texture2D" uid="uid://xpwe5xkt2oox" path="res://assets/Sprites/Tiles/Default/key_yellow.png" id="1_yhuoy"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_yhuoy"]
@@ -9,7 +9,7 @@ friction = 0.26
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yhuoy"]
 size = Vector2(50, 39)
 
-[node name="RigidBody2D" type="RigidBody2D"]
+[node name="key" type="RigidBody2D"]
 disable_mode = 2
 physics_material_override = SubResource("PhysicsMaterial_yhuoy")
 script = ExtResource("1_tfk8p")

@@ -1,4 +1,7 @@
 extends CharacterBody2D
+
+class_name Player
+
 #player properties
 @export var movementSpeed: int = 500
 @export var jumpForce: int = 500
@@ -10,19 +13,21 @@ const MIN_PUSH_FORCE := 15
 var isDashing :bool = false
 var canDash :bool = true
 #node refferences
-@onready var label: Label = $"../Label"
+@onready var label: Label = $"../../objects/Label"
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 @onready var dash_timer: Timer = $"dash timer"
 @onready var dash_cooldown: Timer = $"dash  cooldown"
 var timeframe := "present"
 
 # signals
-
+signal timeframe_change(timeframe_value)
+signal key_pick(isKeyPicked)
 # tilemaps
-@onready var future_tilemap: TileMapLayer = $"../../future/future tilemap"
-@onready var present_tilemap: TileMapLayer = $"../../present/present tilemap"
-@onready var present_background: Sprite2D = $"../../present/present background"
 @onready var background_clouds: Sprite2D = $"../../future/BackgroundClouds"
+@onready var future_tilemap: TileMapLayer = $"../../future/future tilemap"
+@onready var present_background: Sprite2D = $"../../present/present background"
+@onready var present_tilemap: TileMapLayer = $"../../present/present tilemap"
+
 
 # carrying
 var isInRange: bool = false
@@ -30,6 +35,7 @@ var targetObject: Node2D
 @onready var hand: Marker2D = $hand
 
 @onready var hasKey: bool = false
+var held_object :RigidBody2D
 
 
 
@@ -46,9 +52,11 @@ func _ready() -> void:
 	present_tilemap.visible = true
 	present_background.visible = true
 	
+	timeframe_change.emit(timeframe)
+	
 	# carrying
 	hasKey = false
-	print(hasKey)
+	print("have_key = ", hasKey)
 func _input(event: InputEvent) -> void:
 
 	# timeframe switching
@@ -58,6 +66,7 @@ func _input(event: InputEvent) -> void:
 			position = spawn_position
 			future_tilemap.visible = true
 			background_clouds.visible = true
+			timeframe_change.emit(timeframe)
 			
 			present_background.visible = false
 			present_tilemap.visible = false
@@ -72,6 +81,7 @@ func _input(event: InputEvent) -> void:
 			present_background.visible = true
 			present_tilemap.visible = true
 			label.text = "present"
+			timeframe_change.emit(timeframe)
 			
 		# timeframe collisions
 		if timeframe == "present":
@@ -168,16 +178,28 @@ func _on_dash__cooldown_timeout() -> void:
 func pickup_object() -> void:
 	if timeframe == "future":
 		if isInRange == true:
-			targetObject.reparent(hand)
-			targetObject.position = hand.position
+			held_object = targetObject
+			held_object.reparent(hand)
+			held_object.position = hand.position
+			hasKey = true
+			key_pick.emit(hasKey)
 			# stopping collisons and physics
-			if targetObject is RigidBody2D:
-				targetObject.freeze_mode = RigidBody2D.FREEZE_MODE_STATIC
-				targetObject.freeze = true
-				targetObject.collision_layer = 0
-				targetObject.collision_mask = 0
+			if held_object is RigidBody2D:
+				held_object.freeze_mode = RigidBody2D.FREEZE_MODE_STATIC
+				held_object.freeze = true
+				held_object.collision_layer = 0
+				held_object.collision_mask = 0
+			
+				
+func drop_object() -> void:
+	if hasKey == true:
+		print(held_object)
+		held_object.queue_free()
 		
-		hasKey = true
+	else:
+		print("Drop failed:", isInRange, hasKey, targetObject)
+		
+	
 
 
 func _on_range_body_entered(body: Node2D) -> void:
@@ -190,3 +212,8 @@ func _on_range_body_exited(body: Node2D) -> void:
 	if body is Pickable:
 		isInRange = false
 		targetObject = null
+
+
+func _on_door_door_opened() -> void:
+	drop_object()
+	hasKey = false

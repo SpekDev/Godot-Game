@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://ceriofemyt1bh"]
+
+[ext_resource type="Texture2D" uid="uid://sk34urc2ilbl" path="res://assets/Vector/Tiles/flag_green_b.svg" id="1_euapc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cgngl"]
+size = Vector2(173, 414)
+
+[node name="next level" type="StaticBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-0.751997, 0)
+scale = Vector2(-2.398, 6.199)
+texture = ExtResource("1_euapc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-5.5, 3)
+shape = SubResource("RectangleShape2D_cgngl")
