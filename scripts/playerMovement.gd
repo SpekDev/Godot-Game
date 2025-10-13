@@ -7,23 +7,28 @@ class_name Player
 @export var jumpForce: int = 500
 @export var gravity := 1000
 @export var dashForce := 1000
+
 const PUSH_FORCE := 15
 const MIN_PUSH_FORCE := 15
+
 #dashing varibables
 var isDashing :bool = false
 var canDash :bool = true
+
 #node refferences
-@onready var label: Label = $"../../objects/Label"
+@onready var label: Label = $"../../Objects/Label"
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 @onready var dash_timer: Timer = $"dash timer"
 @onready var dash_cooldown: Timer = $"dash  cooldown"
+
 var timeframe := "present"
 
 # signals
 signal timeframe_change(timeframe_value)
 signal key_pick(isKeyPicked)
+
 # tilemaps
-@onready var background_clouds: Sprite2D = $"../../future/BackgroundClouds"
+@onready var future_background: Sprite2D = $"../../future/future background"
 @onready var future_tilemap: TileMapLayer = $"../../future/future tilemap"
 @onready var present_background: Sprite2D = $"../../present/present background"
 @onready var present_tilemap: TileMapLayer = $"../../present/present tilemap"
@@ -32,12 +37,10 @@ signal key_pick(isKeyPicked)
 # carrying
 var isInRange: bool = false
 var targetObject: Node2D
+
 @onready var hand: Marker2D = $hand
-
 @onready var hasKey: bool = false
-var held_object :RigidBody2D
-
-
+var held_object : RigidBody2D
 
 #player flipping
 var facingLeft := false
@@ -47,7 +50,7 @@ var spawn_position: Vector2
 func _ready() -> void:
 	spawn_position = position
 	future_tilemap.visible = false
-	background_clouds.visible = false
+	future_background.visible = false
 	
 	present_tilemap.visible = true
 	present_background.visible = true
@@ -57,15 +60,15 @@ func _ready() -> void:
 	# carrying
 	hasKey = false
 	print("have_key = ", hasKey)
-func _input(event: InputEvent) -> void:
 
+func _input(event: InputEvent) -> void:
 	# timeframe switching
 	if Input.is_action_just_pressed("timejump"):
 		if timeframe == "present":
 			timeframe = "future"
 			position = spawn_position
 			future_tilemap.visible = true
-			background_clouds.visible = true
+			future_background.visible = true
 			timeframe_change.emit(timeframe)
 			
 			present_background.visible = false
@@ -76,7 +79,7 @@ func _input(event: InputEvent) -> void:
 			timeframe = "present"
 			position = spawn_position
 			future_tilemap.visible = false
-			background_clouds.visible = false
+			future_background.visible = false
 			
 			present_background.visible = true
 			present_tilemap.visible = true
