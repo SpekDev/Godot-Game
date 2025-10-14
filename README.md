@@ -1,15 +1,17 @@
+# CIS Game Jam Repo for TeamGD
 
-# Godot Test repo
+Theme : 'INTO THE FUTURE'
 
-A testing repo for godot games before the game jam competition
+**THE IDEA**
 
+-You and your future self work together to solve puzzles that stop you from moving fowards.
 
-## Authors
+## Group Members
 
 - [@SpekDev](https://www.github.com/SpekDev)
 - [@liamhasvip12](https://www.github.com/liamhasvip12)
 
 
-## Deployment
+## Deployment/Demoing
 
-To deploy this project clone the repo and play it in Godot 4.4 game engine.
+To deploy this project, clone the repo and play it in Godot game engine.
