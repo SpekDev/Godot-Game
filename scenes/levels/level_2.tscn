@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=4 uid="uid://bjub0oa82kdpb"]
+[gd_scene load_steps=23 format=4 uid="uid://bjub0oa82kdpb"]
 
 [ext_resource type="Texture2D" uid="uid://cyonkdk2jnotu" path="res://assets/Vector/Backgrounds/background_clouds.svg" id="1_2bnyt"]
 [ext_resource type="Texture2D" uid="uid://cxu2ebkpgulsj" path="res://assets/tilemaps/industrial.png" id="2_n6eey"]
@@ -12,6 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://o706nv3q8rlv" path="res://scenes/characters/player.tscn" id="9_fhpes"]
 [ext_resource type="PackedScene" uid="uid://0sjhv6egc8mi" path="res://scenes/objects/box.tscn" id="10_nt80m"]
 [ext_resource type="PackedScene" uid="uid://bb7gjc2ebmhhi" path="res://scenes/objects/key.tscn" id="10_vmg1d"]
+[ext_resource type="PackedScene" uid="uid://ceriofemyt1bh" path="res://scenes/objects/next level.tscn" id="12_tv7cl"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1yj8c"]
 texture = ExtResource("2_n6eey")
@@ -1066,7 +1067,7 @@ sources/3 = SubResource("TileSetAtlasSource_brxtv")
 sources/1 = SubResource("TileSetAtlasSource_nt80m")
 sources/7 = SubResource("TileSetAtlasSource_r88tb")
 
-[node name="level 3" type="Node2D"]
+[node name="level 2" type="Node2D"]
 
 [node name="future" type="Node" parent="."]
 
@@ -1096,18 +1097,9 @@ scale = Vector2(3.5, 3.5)
 tile_map_data = PackedByteArray("AAAJAAUABwAIAAUAAAAJAAQABwAIAAQAAAAJAAMABwABAAQAAAAJAAIABwABAAQAAAAIAAUABwAHAAUAAAAIAAQABwAEAAcAAAAIAAMABwAEAAcAAAAIAAIABwAHAAMAAAAHAAUABwAHAAUAAAAHAAQABwABAAQAAAAHAAMABwAHAAQAAAAHAAIABwAHAAMAAAAGAAUABwAHAAUAAAAGAAQABwABAAcAAAAGAAMABwAHAAcAAAAGAAIABwAHAAMAAAAFAAUABwAHAAUAAAAFAAQABwAHAAcAAAAFAAMABwAEAAcAAAAFAAIABwAHAAMAAAAEAAUABwAHAAUAAAAEAAQABwAHAAQAAAAEAAMABwAEAAcAAAAEAAIABwAHAAMAAAADAAUABwAHAAUAAAADAAQABwAHAAQAAAADAAMABwAHAAcAAAADAAIABwAHAAMAAAACAAUABwAHAAUAAAACAAQABwAEAAcAAAACAAMABwABAAcAAAACAAIABwAHAAMAAAABAAUABwAHAAUAAAABAAQABwAHAAQAAAABAAMABwAHAAcAAAABAAIABwAHAAMAAAAAAAUABwAHAAUAAAAAAAQABwABAAcAAAAAAAMABwABAAcAAAAAAAIABwAHAAMAAAD//wUABwAHAAUAAAD//wQABwAHAAQAAAD//wMABwAHAAcAAAD//wIABwAHAAMAAAD+/wUABwAHAAUAAAD+/wQABwAHAAQAAAD+/wMABwABAAcAAAD+/wIABwAHAAMAAAD9/wUABwAHAAUAAAD9/wQABwAHAAcAAAD9/wMABwAHAAQAAAD9/wIABwAHAAMAAAD8/wUABwAHAAUAAAD8/wQABwABAAQAAAD8/wMABwABAAQAAAD8/wIABwAHAAMAAAD7/wUABwAHAAUAAAD7/wQABwAHAAQAAAD7/wMABwAHAAcAAAD7/wIABwAHAAMAAAD6/wUABwAHAAUAAAD6/wQABwAHAAcAAAD6/wMABwAEAAcAAAD6/wIABwAHAAMAAAD5/wUABwAHAAUAAAD5/wQABwAHAAcAAAD5/wMABwABAAQAAAD5/wIABwAHAAMAAAD4/wUABwAHAAUAAAD4/wQABwAHAAQAAAD4/wMABwAHAAcAAAD4/wIABwAHAAMAAAD3/wUABwAHAAUAAAD3/wQABwAHAAQAAAD3/wMABwAHAAcAAAD3/wIABwAHAAMAAAD2/wUABwAGAAUAAAD2/wQABwAGAAQAAAD2/wMABwAGAAQAAAD2/wIABwAGAAMAAAAdAAMABwAIAAUAAAAdAAIABwAIAAQAAAAdAAEABwAIAAQAAAAdAAAABwAIAAMAAAAcAAMABwAGAAUAAAAcAAIABwAGAAQAAAAcAAEABwAHAAQAAAAcAAAABwAHAAMAAAAbAAEABwAGAAUAAAAbAAAABwAGAAMAAAASAAIABwAHAAUAAAASAAEABwABAAcAAAASAAAABwAHAAMAAAARAAIABwAHAAUAAAARAAEABwAHAAcAAAARAAAABwAHAAMAAAAQAAIABwAHAAUAAAAQAAEABwABAAQAAAAQAAAABwAHAAMAAAAPAAMABwAIAAUAAAAPAAIABwABAAcAAAAPAAEABwAHAAcAAAAPAAAABwAHAAMAAAAOAAMABwAHAAUAAAAOAAIABwAEAAcAAAAOAAEABwABAAcAAAAOAAAABwAHAAMAAAANAAMABwAHAAUAAAANAAIABwAHAAcAAAANAAEABwAHAAcAAAANAAAABwAHAAMAAAAMAAMABwAHAAUAAAAMAAIABwABAAcAAAAMAAEABwAEAAcAAAAMAAAABwAHAAMAAAALAAMABwAHAAUAAAALAAIABwAEAAcAAAALAAEABwAHAAQAAAALAAAABwAHAAMAAAAKAAMABwAHAAUAAAAKAAIABwAHAAQAAAAKAAEABwABAAcAAAAKAAAABwAHAAMAAAAJAAEABwAGAAQAAAAJAAAABwAGAAMAAAAYAAAABwAIAAMAAAAYAAMABwAIAAUAAAAYAAIABwAIAAQAAAAYAAEABwAIAAQAAAATAAMABwAGAAUAAAATAAEABwABAAQAAAATAAAABwAHAAMAAAAUAAMABwAHAAUAAAAVAAMABwAHAAUAAAAWAAMABwAHAAUAAAAXAAMABwAHAAUAAAAUAAIABwAIAAQAAAAUAAEABwAIAAQAAAAUAAAABwAIAAMAAAATAAIABwAHAAIAAAA=")
 tile_set = SubResource("TileSet_1yj8c")
 
-[node name="player" type="Node" parent="."]
+[node name="objects" type="Node" parent="."]
 
-[node name="Player" parent="player" instance=ExtResource("9_fhpes")]
-position = Vector2(-333, -85)
-
-[node name="Camera2D" type="Camera2D" parent="player/Player"]
-position = Vector2(9, -73)
-zoom = Vector2(0.9, 0.9)
-
-[node name="Objects" type="Node" parent="."]
-
-[node name="Label" type="Label" parent="Objects"]
+[node name="Label" type="Label" parent="objects"]
 z_index = -1
 texture_filter = 1
 offset_left = -156.0
@@ -1118,7 +1110,7 @@ scale = Vector2(9.37315, 9.37315)
 theme_override_colors/font_color = Color(0.568627, 0.768627, 0.764706, 1)
 text = "Present"
 
-[node name="lvl" type="Label" parent="Objects"]
+[node name="lvl" type="Label" parent="objects"]
 offset_left = -565.0
 offset_top = -349.0
 offset_right = -516.0
@@ -1127,14 +1119,26 @@ scale = Vector2(3.2, 3.2)
 theme_override_colors/font_color = Color(0, 0.74902, 0, 1)
 text = "Lvl 2"
 
-[node name="Box" parent="Objects" instance=ExtResource("10_nt80m")]
+[node name="Box" parent="objects" instance=ExtResource("10_nt80m")]
 position = Vector2(62, 0)
 collision_layer = 3
 
-[node name="Key" parent="Objects" instance=ExtResource("10_vmg1d")]
+[node name="key" parent="objects" instance=ExtResource("10_vmg1d")]
 position = Vector2(1542, -42)
 collision_layer = 3
 collision_mask = 3
 
-[node name="door" parent="Objects" instance=ExtResource("5_brxtv")]
-position = Vector2(2009, -32)
+[node name="door" parent="objects" instance=ExtResource("5_brxtv")]
+position = Vector2(2003, -65)
+scale = Vector2(2, 2)
+
+[node name="next level" parent="objects" instance=ExtResource("12_tv7cl")]
+
+[node name="player" type="Node" parent="."]
+
+[node name="Player" parent="player" instance=ExtResource("9_fhpes")]
+position = Vector2(-333, -85)
+
+[node name="Camera2D" type="Camera2D" parent="player/Player"]
+position = Vector2(9, -73)
+zoom = Vector2(0.9, 0.9)

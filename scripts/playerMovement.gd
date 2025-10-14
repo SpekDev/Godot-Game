@@ -16,7 +16,7 @@ var isDashing : bool = false
 var canDash : bool = true
 
 #node references
-@onready var label: Label = $"/root/Objects/Label"
+@onready var label: Label = $"../../objects/Label"
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 @onready var dash_timer: Timer = $"dash timer"
 @onready var dash_cooldown: Timer = $"dash  cooldown"
@@ -27,6 +27,8 @@ var timeframe := "present"
 signal timeframe_change(timeframe_value)
 signal key_pick(isKeyPicked)
 
+#objects
+@onready var door: StaticBody2D = $"../../objects/door"
 # tilemaps 
 @onready var future_background: Sprite2D = $"../../future/FutureBackground"
 @onready var future_tilemap: TileMapLayer = $"../../future/future tilemap"
@@ -57,6 +59,19 @@ func _ready() -> void:
 
 	timeframe_change.emit(timeframe)
 	
+	# SIGNALS connectiviyty
+ 
+# Connect area signals for pickup range
+	$range.body_entered.connect(_on_range_body_entered)
+	$range.body_exited.connect(_on_range_body_exited)
+
+	# Connect door signal
+	door.door_opened.connect(_on_door_door_opened)
+
+	# Connect dash timers
+	dash_timer.timeout.connect(_on_dash_timer_timeout)
+	dash_cooldown.timeout.connect(_on_dash__cooldown_timeout)
+	
 	# carrying
 	hasKey = false
 	print("have_key = ", hasKey)
@@ -73,7 +88,7 @@ func _input(event: InputEvent) -> void:
 			
 			present_background.visible = false
 			present_tilemap.visible = false
-			label.text = "future"
+			#label.text = "future"
 			
 		elif timeframe == "future":
 			timeframe = "present"
@@ -83,7 +98,7 @@ func _input(event: InputEvent) -> void:
 			
 			present_background.visible = true
 			present_tilemap.visible = true
-			label.text = "present"
+			#label.text = "present"
 			timeframe_change.emit(timeframe)
 			
 		# timeframe collisions
