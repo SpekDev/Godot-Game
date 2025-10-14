@@ -1,7 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://0sjhv6egc8mi"]
+[gd_scene load_steps=6 format=3 uid="uid://0sjhv6egc8mi"]
 
 [ext_resource type="Texture2D" uid="uid://owyv0b5k3cbs" path="res://assets/tilemaps/blocks/stone_packed.png" id="1_2vq68"]
 [ext_resource type="Script" uid="uid://bxy5eqoehwdig" path="res://scripts/box.gd" id="1_tf0hf"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_tf0hf"]
+friction = 0.2
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tf0hf"]
 atlas = ExtResource("1_2vq68")
@@ -11,6 +14,7 @@ region = Rect2(109, 55, 52, 52)
 size = Vector2(50, 50)
 
 [node name="Box" type="RigidBody2D"]
+physics_material_override = SubResource("PhysicsMaterial_tf0hf")
 script = ExtResource("1_tf0hf")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

@@ -12,11 +12,11 @@ const PUSH_FORCE := 15
 const MIN_PUSH_FORCE := 15
 
 #dashing varibables
-var isDashing :bool = false
-var canDash :bool = true
+var isDashing : bool = false
+var canDash : bool = true
 
-#node refferences
-@onready var label: Label = $"../../Objects/Label"
+#node references
+@onready var label: Label = $"/root/Objects/Label"
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 @onready var dash_timer: Timer = $"dash timer"
 @onready var dash_cooldown: Timer = $"dash  cooldown"
@@ -27,10 +27,10 @@ var timeframe := "present"
 signal timeframe_change(timeframe_value)
 signal key_pick(isKeyPicked)
 
-# tilemaps
-@onready var future_background: Sprite2D = $"../../future/future background"
+# tilemaps 
+@onready var future_background: Sprite2D = $"../../future/FutureBackground"
 @onready var future_tilemap: TileMapLayer = $"../../future/future tilemap"
-@onready var present_background: Sprite2D = $"../../present/present background"
+@onready var present_background: Sprite2D = $"../../present/PresentBackground"
 @onready var present_tilemap: TileMapLayer = $"../../present/present tilemap"
 
 
@@ -51,10 +51,10 @@ func _ready() -> void:
 	spawn_position = position
 	future_tilemap.visible = false
 	future_background.visible = false
-	
+
 	present_tilemap.visible = true
 	present_background.visible = true
-	
+
 	timeframe_change.emit(timeframe)
 	
 	# carrying
@@ -92,8 +92,6 @@ func _input(event: InputEvent) -> void:
 		elif timeframe == "future":
 			collision_mask = 1 << 1  # layer 2 (bit 1)
 
-			
-
 
 func _physics_process(delta: float) -> void:
 	#pickup
@@ -115,6 +113,10 @@ func _physics_process(delta: float) -> void:
 		direction.x += 1
 	if Input.is_action_pressed("left"):
 		direction.x += -1
+	# if Input.is_action_pressed("up"):
+	# 	direction.y += -1
+	# if Input.is_action_pressed("down"):
+	# 	direction.y += 1
 	
 	if isDashing:
 		pass
@@ -133,10 +135,9 @@ func _physics_process(delta: float) -> void:
 		velocity.y += gravity * delta
 		
 	#dash input
-	if Input.is_action_just_pressed("dash") and direction.x != 0 && isDashing != true && canDash:
+	if Input.is_action_just_pressed("dash") and direction != Vector2.ZERO && isDashing != true && canDash:
 		dash(direction)
 
-		
 	move_and_slide()
 	
 	#pusing objects
@@ -146,8 +147,6 @@ func _physics_process(delta: float) -> void:
 			var pushForce = (PUSH_FORCE * velocity.length() / movementSpeed) + MIN_PUSH_FORCE
 			collision.get_collider().apply_impulse(-collision.get_normal() * pushForce)
 			
-	
-	
 	#flipping character
 	if velocity.x < 0:
 		facingLeft = true
@@ -162,6 +161,7 @@ func dash(direction: Vector2) -> void:
 	animated_sprite_2d.animation = timeframe + "_dash"
 	print(isDashing)
 	print(dashForce)
+	# velocity = direction.normalized() * dashForce
 	velocity = direction * dashForce
 	dash_timer.start()
 	dash_cooldown.start()
@@ -177,7 +177,6 @@ func _on_dash__cooldown_timeout() -> void:
 	print(canDash)
 
 #picking up items
-
 func pickup_object() -> void:
 	if timeframe == "future":
 		if isInRange == true:
@@ -202,9 +201,6 @@ func drop_object() -> void:
 	else:
 		print("Drop failed:", isInRange, hasKey, targetObject)
 		
-	
-
-
 func _on_range_body_entered(body: Node2D) -> void:
 	if body is Pickable:
 		isInRange = true

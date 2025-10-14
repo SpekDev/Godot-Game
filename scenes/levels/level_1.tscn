@@ -1,4 +1,4 @@
-[gd_scene load_steps=23 format=4 uid="uid://d3s0w245l5d33"]
+[gd_scene load_steps=23 format=4 uid="uid://cbydnqtk4yrk"]
 
 [ext_resource type="Texture2D" uid="uid://cyonkdk2jnotu" path="res://assets/Vector/Backgrounds/background_clouds.svg" id="1_dnkej"]
 [ext_resource type="Texture2D" uid="uid://cxu2ebkpgulsj" path="res://assets/tilemaps/industrial.png" id="2_mm8aj"]
@@ -961,7 +961,7 @@ sources/7 = SubResource("TileSetAtlasSource_r88tb")
 
 [node name="future" type="Node" parent="."]
 
-[node name="BackgroundClouds" type="Sprite2D" parent="future"]
+[node name="FutureBackground" type="Sprite2D" parent="future"]
 position = Vector2(13, 5)
 scale = Vector2(5.16266, 2.8125)
 texture = ExtResource("1_dnkej")
@@ -973,7 +973,7 @@ tile_set = SubResource("TileSet_gw1l3")
 
 [node name="present" type="Node" parent="."]
 
-[node name="present background" type="Sprite2D" parent="present"]
+[node name="PresentBackground" type="Sprite2D" parent="present"]
 visible = false
 position = Vector2(11.25, -0.999985)
 scale = Vector2(5.12836, 2.53125)
