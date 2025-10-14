@@ -1,17 +1,23 @@
-[gd_scene load_steps=3 format=3 uid="uid://ceriofemyt1bh"]
+[gd_scene load_steps=4 format=3 uid="uid://ceriofemyt1bh"]
 
 [ext_resource type="Texture2D" uid="uid://sk34urc2ilbl" path="res://assets/Vector/Tiles/flag_green_b.svg" id="1_euapc"]
+[ext_resource type="Script" uid="uid://dapblmkwrpy4q" path="res://scripts/next_level.gd" id="1_j4ikx"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cgngl"]
-size = Vector2(173, 414)
+size = Vector2(251, 882)
 
 [node name="next level" type="StaticBody2D"]
+script = ExtResource("1_j4ikx")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(-0.751997, 0)
 scale = Vector2(-2.398, 6.199)
 texture = ExtResource("1_euapc")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 position = Vector2(-5.5, 3)
 shape = SubResource("RectangleShape2D_cgngl")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

@@ -1,8 +1,8 @@
 [gd_scene load_steps=6 format=3 uid="uid://dj46s3ywcuvkg"]
 
 [ext_resource type="Script" uid="uid://lhll8dmbw0l4" path="res://scripts/door.gd" id="1_0phs7"]
-[ext_resource type="Texture2D" uid="uid://gqtvjhedivcg" path="res://assets/Vector/Tiles/door_closed.svg" id="1_v6xrn"]
-[ext_resource type="Texture2D" uid="uid://cidj1iv3tyno2" path="res://assets/Vector/Tiles/door_open.svg" id="2_0phs7"]
+[ext_resource type="Texture2D" uid="uid://t5x6c7vat5hi" path="res://assets/Vector/Tiles/door_closed_top.svg" id="2_xm0wp"]
+[ext_resource type="Texture2D" uid="uid://c5bb2oa5x2hm2" path="res://assets/Vector/Tiles/door_open_top.svg" id="3_aji8h"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_50cdl"]
 size = Vector2(64, 64)
@@ -16,10 +16,10 @@ collision_mask = 3
 script = ExtResource("1_0phs7")
 
 [node name="closed" type="Sprite2D" parent="."]
-texture = ExtResource("1_v6xrn")
+texture = ExtResource("2_xm0wp")
 
 [node name="open" type="Sprite2D" parent="."]
-texture = ExtResource("2_0phs7")
+texture = ExtResource("3_aji8h")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_50cdl")

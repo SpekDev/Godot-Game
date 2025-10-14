@@ -1010,13 +1010,13 @@ collision_layer = 3
 collision_mask = 3
 
 [node name="door" parent="objects" instance=ExtResource("11_7h2jl")]
-position = Vector2(503, 166)
-scale = Vector2(1.86923, 2.68487)
+position = Vector2(501, 184)
+scale = Vector2(1.94923, 2.28487)
 collision_layer = 2
 collision_mask = 2
 
 [node name="next level" parent="objects" instance=ExtResource("12_mqh5v")]
-position = Vector2(623, 156)
+position = Vector2(634, 155)
 scale = Vector2(0.5, 0.5)
 
 [node name="player" type="Node" parent="."]
