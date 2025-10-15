@@ -1,6 +1,7 @@
 extends StaticBody2D
+
 # door
-@onready var opening_range: CollisionShape2D = $"Area2D/opening range"
+@onready var open_range: Area2D = $"open range"
 @onready var open: Sprite2D = $open
 @onready var closed: Sprite2D = $closed
 
@@ -9,8 +10,8 @@ var doorOpen :bool = false
 
 signal door_opened
 # player
-@onready var player: CharacterBody2D = $"/root/player/Player"
-var hasKey : bool
+@onready var player: Player = $"../../player/Player"
+var hasKey : bool	
 var key : RigidBody2D
 var timeframe : String
 # Called when the node enters the scene tree for the first time.
@@ -22,9 +23,9 @@ func _ready() -> void:
 	collision_mask = 2
 	
 	#signals connectivity
+	open_range.body_entered.connect(_on_open_range_body_entered)
 	player.timeframe_change.connect(_on_player_timeframe_change)
 	player.key_pick.connect(_on_player_key_pick)
-	$"Area2D/opening range".body_entered.connect(_on_open_range_body_entered)
 
 func _on_player_timeframe_change(timeframe_value) -> void:
 	timeframe = timeframe_value
