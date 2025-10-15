@@ -8,8 +8,8 @@ class_name Player
 @export var gravity := 1000
 @export var dashForce := 1000
 
-const PUSH_FORCE := 15
-const MIN_PUSH_FORCE := 15
+const PUSH_FORCE := 150
+const MIN_PUSH_FORCE := 125
 
 #dashing varibables
 var isDashing : bool = false

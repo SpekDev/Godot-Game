@@ -1,0 +1,73 @@
+[gd_scene load_steps=11 format=4 uid="uid://dulsj18kdsxju"]
+
+[ext_resource type="TileSet" uid="uid://d1csygk8pywur" path="res://assets/tilesets/present.tres" id="1_0ljxa"]
+[ext_resource type="Texture2D" uid="uid://q4d37gvkv24j" path="res://assets/Vector/Backgrounds/background_color_mushrooms.svg" id="1_2bnyt"]
+[ext_resource type="PackedScene" uid="uid://0sjhv6egc8mi" path="res://scenes/objects/box.tscn" id="2_0qepi"]
+[ext_resource type="TileSet" uid="uid://1u8df3ygf61" path="res://assets/tilesets/future.tres" id="2_ugcn1"]
+[ext_resource type="PackedScene" uid="uid://dj46s3ywcuvkg" path="res://scenes/objects/door.tscn" id="3_fkk1g"]
+[ext_resource type="PackedScene" uid="uid://o706nv3q8rlv" path="res://scenes/characters/player.tscn" id="3_fmg3e"]
+[ext_resource type="Texture2D" uid="uid://cyonkdk2jnotu" path="res://assets/Vector/Backgrounds/background_clouds.svg" id="3_n6eey"]
+[ext_resource type="PackedScene" uid="uid://ceriofemyt1bh" path="res://scenes/objects/next level.tscn" id="4_ugcn1"]
+[ext_resource type="PackedScene" uid="uid://bb7gjc2ebmhhi" path="res://scenes/objects/key.tscn" id="5_pimnq"]
+[ext_resource type="PackedScene" uid="uid://bd3hn2r4r6ivo" path="res://scenes/objects/label.tscn" id="6_2bnyt"]
+
+[node name="level 3" type="Node2D"]
+
+[node name="present" type="Node" parent="."]
+
+[node name="PresentBackground" type="Sprite2D" parent="present"]
+position = Vector2(75.5, 26)
+scale = Vector2(5.81641, 3.07813)
+texture = ExtResource("1_2bnyt")
+
+[node name="present tilemap" type="TileMapLayer" parent="present"]
+position = Vector2(-132, 9)
+scale = Vector2(3.5, 3.5)
+tile_map_data = PackedByteArray("AAABAAEABwAHAAAAAFACAAEABwAHAAAAADADAAEAAwAAAAMAAAADAAIAAwAAAAUAAAABAP3/BwADAAMAAAABAP7/BwADAAQAAAABAP//BwADAAQAAAABAAAABwADAAQAAAACAAAABwAFAAQAAAACAP//BwAFAAQAAAACAP7/BwAFAAQAAAACAP3/BwAFAAMAAAD5/wEAAwAAAAMAAAD6/wEAAwABAAMAAAD7/wEAAwABAAMAAAD8/wEAAwABAAMAAAD9/wEAAwABAAMAAAD+/wEAAwABAAMAAAD//wEAAwABAAMAAAAAAAEAAwACAAMAAAAAAAIAAwACAAUAAAD//wIAAwABAAUAAAD+/wIAAwABAAUAAAD9/wIAAwABAAUAAAD8/wIAAwABAAUAAAD7/wIAAwABAAUAAAD6/wIAAwABAAUAAAD5/wIAAwAAAAUAAAAEAAEAAwABAAMAAAAFAAEAAwABAAMAAAAGAAEAAwABAAMAAAAHAAEAAwABAAMAAAAEAAIAAwABAAUAAAAFAAIAAwABAAUAAAAGAAIAAwABAAUAAAAHAAIAAwABAAUAAAAIAAEAAwABAAMAAAAIAAIAAwABAAUAAAABAAIABwAHAAAAAAACAAIABwAHAAAAAGALAAEAAwACAAMAAAALAAIAAwACAAUAAAAKAAIAAwABAAUAAAAJAAIAAwABAAUAAAAJAAEAAwABAAMAAAAKAAEAAwABAAMAAAD9/wAABwAIAAAAAGAHAAAABwAIAAAAAAA=")
+tile_set = ExtResource("1_0ljxa")
+
+[node name="future" type="Node" parent="."]
+
+[node name="FutureBackground" type="Sprite2D" parent="future"]
+position = Vector2(70.5, 26)
+scale = Vector2(5.81641, 3.13281)
+texture = ExtResource("3_n6eey")
+
+[node name="future tilemap" type="TileMapLayer" parent="future"]
+position = Vector2(-132, 9)
+scale = Vector2(3.5, 3.5)
+tile_map_data = PackedByteArray("AAADAAEAAAAIAAYAAAADAAIAAwAAAAUAAAABAP7/AAAKAAMAAAABAP//AAAKAAMAAAABAAAAAAAKAAQAAAACAAAAAAAKAAQAAAACAP//AAAKAAMAAAACAP7/AAAKAAMAAAAAAAIAAwACAAUAAAD//wIAAAAAAAUAAAD+/wIAAAAAAAYAAAD9/wIAAwABAAUAAAD8/wIAAwABAAUAAAD7/wIAAwABAAUAAAD6/wIAAwABAAUAAAD5/wIAAwAAAAUAAAAEAAEAAAAKAAUAAAAFAAEAAAAEAAAAAAAGAAEAAAAFAAAAAAAHAAEAAAAFAAAAAAAEAAIAAAAAAAYAAAAFAAIAAAAAAAUAAAAGAAIAAwABAAUAAAAHAAIAAwABAAUAAAAIAAEAAAAFAAEAAAAIAAIAAwABAAUAAAALAAEAAAAGAAAAAAALAAIAAwACAAUAAAAKAAIAAwABAAUAAAAJAAIAAwABAAUAAAAJAAEAAAAFAAAAAAAKAAEAAAAFAAAAAAD5/wEAAAAEAAAAAAD6/wEAAAAFAAEAAAD7/wEAAAAFAAAAAAD8/wEAAAAFAAEAAAD+/wEAAAAGAAEAAAD9/wEAAAAFAAAAAAD//wEAAAAHAAUAAAABAP3/AAAGAAIAAAACAP3/AAAGAAIAAAAAAP3/AAAEAAEAAAABAAIAAAAAAAYAAAACAAIAAAAAAAUAAAAAAAEAAAAIAAYAAAABAAEAAAAIAAUAAAACAAEAAAAIAAUAAAAAAPz/AAAAAAQAAAADAPz/AAAFAAAAAGADAPv/AAAGAAAAAGADAP3/AgAHAAAAAFAHAAAAAAADAAQAAAD9/wAAAAACAAQAAAA=")
+tile_set = ExtResource("2_ugcn1")
+
+[node name="objects" type="Node" parent="."]
+
+[node name="Box" parent="objects" instance=ExtResource("2_0qepi")]
+position = Vector2(135, 6.99999)
+scale = Vector2(2, 2)
+collision_layer = 2
+collision_mask = 2
+
+[node name="door" parent="objects" instance=ExtResource("3_fkk1g")]
+position = Vector2(440, 8)
+scale = Vector2(2, 2)
+
+[node name="next level" parent="objects" instance=ExtResource("4_ugcn1")]
+position = Vector2(545, 38)
+scale = Vector2(0.5, 0.5)
+
+[node name="key" parent="objects" instance=ExtResource("5_pimnq")]
+position = Vector2(-10, -237)
+
+[node name="Label" parent="objects" instance=ExtResource("6_2bnyt")]
+offset_left = -69.0
+offset_top = -337.0
+offset_right = 468.0
+offset_bottom = -5.0
+
+[node name="player" type="Node" parent="."]
+
+[node name="Player" parent="player" instance=ExtResource("3_fmg3e")]
+position = Vector2(-484, -13)
+jumpForce = 555
+
+[node name="Camera2D" type="Camera2D" parent="player"]

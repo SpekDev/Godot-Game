@@ -31,19 +31,23 @@ func _on_player_timeframe_change(timeframe_value) -> void:
 	timeframe = timeframe_value
 	print("dorr", timeframe)
 func _process(delta: float) -> void:
-	if timeframe == "present":
-		open.visible = false
+	if timeframe == "present" && doorOpen:
+		open.visible = true
 		closed.visible = false
 		
 		
-	elif timeframe == "future" && doorOpen == false:
+	elif timeframe == "present" && doorOpen == false:
 		closed.visible = true
 		open.visible = false
 		
 		
-	else:
+	elif timeframe == "future" && doorOpen:
 		closed.visible = false
 		open.visible = true
+		
+	else:
+		closed.visible == true
+		open.visible = false
 		
 	
 
