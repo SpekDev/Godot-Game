@@ -59,8 +59,6 @@ func _ready() -> void:
 	present_background.visible = true
 
 	timeframe_change.emit(timeframe)
-	
-	# SIGNALS connectiviyty
  
 # Connect area signals for pickup range
 	$range.body_entered.connect(_on_range_body_entered)
@@ -89,7 +87,7 @@ func _input(event: InputEvent) -> void:
 			
 			present_background.visible = false
 			present_tilemap.visible = false
-			label.text = "future"
+			label.text = "Future"
 			
 		elif timeframe == "future":
 			timeframe = "present"
@@ -99,7 +97,7 @@ func _input(event: InputEvent) -> void:
 			
 			present_background.visible = true
 			present_tilemap.visible = true
-			label.text = "present"
+			label.text = "Present"
 			timeframe_change.emit(timeframe)
 			
 		# timeframe collisions
@@ -110,7 +108,6 @@ func _input(event: InputEvent) -> void:
 
 
 func _physics_process(delta: float) -> void:
-	#pickup
 	pickup_object()
 	
 	#animations

@@ -15,6 +15,10 @@ run/main_scene="uid://cbydnqtk4yrk"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://assets/icon.svg"
 
+[autoload]
+
+UI="*res://scenes/objects/UI.tscn"
+
 [input]
 
 up={
