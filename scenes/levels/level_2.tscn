@@ -12,7 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://o706nv3q8rlv" path="res://scenes/characters/player.tscn" id="9_fhpes"]
 [ext_resource type="PackedScene" uid="uid://0sjhv6egc8mi" path="res://scenes/objects/box.tscn" id="10_nt80m"]
 [ext_resource type="PackedScene" uid="uid://bb7gjc2ebmhhi" path="res://scenes/objects/key.tscn" id="10_vmg1d"]
-[ext_resource type="PackedScene" uid="uid://ceriofemyt1bh" path="res://assets/tilemaps/kenney_board-game-icons/PNG/Double (128px)/next level.tscn" id="12_tv7cl"]
+[ext_resource type="PackedScene" uid="uid://ceriofemyt1bh" path="res://scenes/objects/next level.tscn" id="12_tv7cl"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nt80m"]
 texture = ExtResource("4_f6egh")

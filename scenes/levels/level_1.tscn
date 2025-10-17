@@ -7,7 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://bd3hn2r4r6ivo" path="res://scenes/objects/label.tscn" id="9_mkypq"]
 [ext_resource type="PackedScene" uid="uid://bb7gjc2ebmhhi" path="res://scenes/objects/key.tscn" id="10_ndtll"]
 [ext_resource type="PackedScene" uid="uid://dj46s3ywcuvkg" path="res://scenes/objects/door.tscn" id="11_7h2jl"]
-[ext_resource type="PackedScene" uid="uid://ceriofemyt1bh" path="res://assets/tilemaps/kenney_board-game-icons/PNG/Double (128px)/next level.tscn" id="12_mqh5v"]
+[ext_resource type="PackedScene" uid="uid://ceriofemyt1bh" path="res://scenes/objects/next level.tscn" id="12_mqh5v"]
 [ext_resource type="PackedScene" uid="uid://o706nv3q8rlv" path="res://scenes/characters/player.tscn" id="13_7o3do"]
 
 [node name="level 1" type="Node2D"]

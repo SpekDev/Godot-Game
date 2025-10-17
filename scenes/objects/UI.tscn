@@ -15,6 +15,7 @@ grow_vertical = 2
 
 [node name="Control2" type="Control" parent="Control"]
 layout_mode = 1
+anchors_preset = 0
 offset_left = 40.0
 offset_top = 100.0
 offset_right = 40.0

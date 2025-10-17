@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://cwwf6g43a4q4x"]
 
-[ext_resource type="PackedScene" uid="uid://ceriofemyt1bh" path="res://assets/tilemaps/kenney_board-game-icons/PNG/Double (128px)/next level.tscn" id="1_2vj2h"]
+[ext_resource type="PackedScene" uid="uid://ceriofemyt1bh" path="res://scenes/objects/next level.tscn" id="1_2vj2h"]
 [ext_resource type="PackedScene" uid="uid://o706nv3q8rlv" path="res://scenes/characters/player.tscn" id="2_y0acb"]
 
 [node name="Node2D" type="Node2D"]
