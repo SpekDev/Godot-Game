@@ -1,0 +1,38 @@
+[gd_scene load_steps=3 format=3 uid="uid://xwoe1avu2kf4"]
+
+[ext_resource type="Texture2D" uid="uid://bkbu07wekov7f" path="res://assets/tilemaps/kenney_board-game-icons/PNG/Double (128px)/hourglass_bottom.png" id="1_0pjh3"]
+[ext_resource type="Texture2D" uid="uid://ca6xivo302dwc" path="res://assets/tilemaps/kenney_board-game-icons/PNG/Double (128px)/arrow_clockwise.png" id="1_j8dv8"]
+
+[node name="CanvasLayer" type="CanvasLayer"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Control2" type="Control" parent="Control"]
+layout_mode = 1
+offset_left = 40.0
+offset_top = 100.0
+offset_right = 40.0
+offset_bottom = 100.0
+scale = Vector2(0.5, 0.5)
+
+[node name="Sprite2D" type="Sprite2D" parent="Control/Control2"]
+modulate = Color(0.466667, 0.486275, 0.427451, 1)
+texture = ExtResource("1_0pjh3")
+
+[node name="Button" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 0
+grow_vertical = 0
+scale = Vector2(0.8, 0.8)
+icon = ExtResource("1_j8dv8")
