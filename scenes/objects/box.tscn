@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://bxy5eqoehwdig" path="res://scripts/box.gd" id="1_tf0hf"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_tf0hf"]
-friction = 0.2
+friction = 0.21
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tf0hf"]
 atlas = ExtResource("1_2vq68")
@@ -14,6 +14,9 @@ region = Rect2(109, 55, 52, 52)
 size = Vector2(50, 50)
 
 [node name="Box" type="RigidBody2D"]
+collision_layer = 0
+collision_mask = 0
+mass = 10.0
 physics_material_override = SubResource("PhysicsMaterial_tf0hf")
 script = ExtResource("1_tf0hf")
 

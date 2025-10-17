@@ -5,7 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://c5bb2oa5x2hm2" path="res://assets/Vector/Tiles/door_open_top.svg" id="3_aji8h"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_50cdl"]
-size = Vector2(64, 64)
+size = Vector2(64, 169)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_50cdl"]
 radius = 88.8144
@@ -22,6 +22,7 @@ texture = ExtResource("2_xm0wp")
 texture = ExtResource("3_aji8h")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -52.5)
 shape = SubResource("RectangleShape2D_50cdl")
 debug_color = Color(0.850202, 0.322744, 0.491156, 0.42)
 
