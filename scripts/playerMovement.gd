@@ -16,7 +16,7 @@ var isDashing : bool = false
 var canDash : bool = true
 
 #node references
-@onready var label: Label = $"../../objects/Label"
+@onready var label: Label = %Label
 @onready var animated_sprite_2d: AnimatedSprite2D = $AnimatedSprite2D
 @onready var dash_timer: Timer = $"dash timer"
 @onready var dash_cooldown: Timer = $"dash  cooldown"
@@ -50,6 +50,7 @@ var facingLeft := false
 var spawn_position: Vector2
 
 func _ready() -> void:
+	print("label: ", label)
 	spawn_position = position
 	future_tilemap.visible = false
 	future_background.visible = false
@@ -88,7 +89,7 @@ func _input(event: InputEvent) -> void:
 			
 			present_background.visible = false
 			present_tilemap.visible = false
-			#label.text = "future"
+			label.text = "future"
 			
 		elif timeframe == "future":
 			timeframe = "present"
@@ -98,7 +99,7 @@ func _input(event: InputEvent) -> void:
 			
 			present_background.visible = true
 			present_tilemap.visible = true
-			#label.text = "present"
+			label.text = "present"
 			timeframe_change.emit(timeframe)
 			
 		# timeframe collisions

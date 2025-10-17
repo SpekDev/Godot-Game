@@ -58,16 +58,26 @@ scale = Vector2(0.5, 0.5)
 [node name="key" parent="objects" instance=ExtResource("5_pimnq")]
 position = Vector2(-10, -237)
 
-[node name="Label" parent="objects" instance=ExtResource("6_2bnyt")]
-offset_left = -69.0
-offset_top = -337.0
-offset_right = 468.0
-offset_bottom = -5.0
-
 [node name="player" type="Node" parent="."]
 
 [node name="Player" parent="player" instance=ExtResource("3_fmg3e")]
-position = Vector2(-484, -13)
+position = Vector2(-428, -30)
 jumpForce = 555
 
 [node name="Camera2D" type="Camera2D" parent="player"]
+
+[node name="Label" parent="player/Camera2D" instance=ExtResource("6_2bnyt")]
+unique_name_in_owner = true
+offset_left = -261.0
+offset_top = -330.0
+offset_right = 276.0
+offset_bottom = 2.0
+
+[node name="lvl" parent="player/Camera2D" instance=ExtResource("6_2bnyt")]
+unique_name_in_owner = true
+offset_left = -569.0
+offset_top = 197.0
+offset_right = -32.0
+offset_bottom = 529.0
+text = "lvl 3
+"
