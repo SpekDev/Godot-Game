@@ -21,4 +21,3 @@ To demo this project, fork and clone the repo and test it in Godot v4.4.1 stable
 **OR**
 
 Download the latest stable release for this game in the releases section.
-

@@ -1,0 +1,78 @@
+[gd_scene load_steps=5 format=3 uid="uid://cltnes0x8p1s"]
+
+[ext_resource type="Script" uid="uid://bcx8kf6bwvbkh" path="res://scripts/main_menu.gd" id="1_721jg"]
+[ext_resource type="Texture2D" uid="uid://bf36kk87hbuhf" path="res://assets/skies/demo02_PixelSky_1920x1080.png" id="2_geflf"]
+[ext_resource type="FontFile" uid="uid://bewmvekpyr1sj" path="res://assets/fonts/ka1.ttf" id="3_fkd6t"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vue75"]
+bg_color = Color(1, 1, 1, 1)
+
+[node name="main menu" type="Node2D"]
+script = ExtResource("1_721jg")
+
+[node name="bg" type="Panel" parent="."]
+offset_right = 1149.0
+offset_bottom = 644.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_vue75")
+
+[node name="Demo02PixelSky1920x1080" type="Sprite2D" parent="."]
+position = Vector2(562, 331)
+scale = Vector2(0.67, 0.67)
+texture = ExtResource("2_geflf")
+
+[node name="game name" type="Label" parent="."]
+offset_left = 239.0
+offset_top = 168.0
+offset_right = 894.0
+offset_bottom = 236.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_fkd6t")
+theme_override_font_sizes/font_size = 60
+text = "Temporal Shift"
+horizontal_alignment = 1
+
+[node name="teamgd" type="Label" parent="."]
+offset_left = 521.0
+offset_top = 243.0
+offset_right = 1176.0
+offset_bottom = 311.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_fkd6t")
+theme_override_font_sizes/font_size = 30
+text = "by teamGD"
+horizontal_alignment = 1
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="play" type="Button" parent="CanvasLayer"]
+offset_left = 357.0
+offset_top = 295.0
+offset_right = 762.0
+offset_bottom = 403.0
+theme_override_fonts/font = ExtResource("3_fkd6t")
+theme_override_font_sizes/font_size = 30
+text = "Play"
+
+[node name="tutorial" type="Button" parent="CanvasLayer"]
+offset_left = 358.0
+offset_top = 418.0
+offset_right = 763.0
+offset_bottom = 526.0
+theme_override_fonts/font = ExtResource("3_fkd6t")
+theme_override_font_sizes/font_size = 30
+text = "Tutorial
+"
+
+[node name="quit" type="Button" parent="CanvasLayer"]
+offset_left = 358.0
+offset_top = 534.0
+offset_right = 763.0
+offset_bottom = 642.0
+theme_override_fonts/font = ExtResource("3_fkd6t")
+theme_override_font_sizes/font_size = 30
+text = "QUIT GAME
+"
+
+[connection signal="pressed" from="CanvasLayer/play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="CanvasLayer/tutorial" to="." method="_on_tutorial_pressed"]
+[connection signal="pressed" from="CanvasLayer/quit" to="." method="_on_quit_pressed"]

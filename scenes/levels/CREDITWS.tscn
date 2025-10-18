@@ -1,0 +1,69 @@
+[gd_scene load_steps=4 format=3 uid="uid://bfxyt8kbx54nm"]
+
+[ext_resource type="Script" uid="uid://ckhrt60vcvie3" path="res://scenes/levels/creditws.gd" id="1_g76t4"]
+[ext_resource type="Texture2D" uid="uid://gfkxlgymissn" path="res://assets/skies/demo06_PixelSky_1920x1080.png" id="1_vt5fd"]
+[ext_resource type="FontFile" uid="uid://bewmvekpyr1sj" path="res://assets/fonts/ka1.ttf" id="2_bh7oc"]
+
+[node name="Panel" type="Panel"]
+offset_right = 1165.0
+offset_bottom = 664.0
+script = ExtResource("1_g76t4")
+
+[node name="Demo06PixelSky1920x1080" type="Sprite2D" parent="."]
+position = Vector2(575, 352.5)
+scale = Vector2(0.627083, 0.689815)
+texture = ExtResource("1_vt5fd")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 63.0
+offset_right = 1132.0
+offset_bottom = 257.0
+theme_override_fonts/font = ExtResource("2_bh7oc")
+theme_override_font_sizes/font_size = 70
+text = "THANK YOU FOR PLAYING"
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+offset_left = 17.0
+offset_top = 188.0
+offset_right = 809.0
+offset_bottom = 725.0
+theme_override_fonts/font = ExtResource("2_bh7oc")
+theme_override_font_sizes/font_size = 40
+text = "MADE BY TEAM GD
+
+- LIAM MAINA
+
+- DIYAN SHAH
+ 
+- MISHA MAINA 
+
+- OLIVER MUSYOKA
+ "
+
+[node name="Label3" type="Label" parent="."]
+layout_mode = 0
+offset_left = 586.0
+offset_top = 422.0
+offset_right = 1293.0
+offset_bottom = 614.0
+theme_override_fonts/font = ExtResource("2_bh7oc")
+theme_override_font_sizes/font_size = 50
+text = "FOR CIS GAME
+    JAM 2025"
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="Button" type="Button" parent="CanvasLayer"]
+offset_left = 892.0
+offset_top = 579.0
+offset_right = 1140.0
+offset_bottom = 659.0
+theme_override_fonts/font = ExtResource("2_bh7oc")
+theme_override_font_sizes/font_size = 29
+text = "main menu"
+
+[connection signal="pressed" from="CanvasLayer/Button" to="." method="_on_button_pressed"]

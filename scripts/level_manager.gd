@@ -33,10 +33,15 @@ func _ready() -> void:
 
 func _on_area_2d_body_entered(body: Node2D) -> void:
 	if body is Player and canPass == true:
-		print("next scene", nextLevelPath)
-		get_tree().change_scene_to_file(nextLevelPath)
-		nextLevelName[5] = " "
-		print(nextLevelName)
+		if levelNum != 4:
+			print("next scene", nextLevelPath)
+			get_tree().change_scene_to_file(nextLevelPath)
+			nextLevelName[5] = " "
+			print(nextLevelName)
+			
+		else:
+			get_tree().change_scene_to_file("res://scenes/levels/CREDITWS.tscn")
+			print("ends")
 
 func _on_button_pressed():
 	get_tree().change_scene_to_file(currentLevelPath)
