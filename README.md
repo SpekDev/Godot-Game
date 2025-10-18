@@ -8,10 +8,10 @@ Theme : 'INTO THE FUTURE'
 
 ## Group Members
 
-- [@SpekDev](https://www.github.com/SpekDev)  -- THE LEADER
-- [@liamhasvip12](https://www.github.com/liamhasvip12)
-- [RyZ3-D1y3n](https://github.com/RyZ3-D1y3n)
-- [fingernoodle78](https://github.com/fingernoodle78)
+- [@SpekDev](https://www.github.com/SpekDev)  -- Team Leader and Programmer
+- [@liamhasvip12](https://www.github.com/liamhasvip12) -- Level Designer and Programmer
+- [RyZ3-D1y3n](https://github.com/RyZ3-D1y3n) -- UI Artist
+- [fingernoodle78](https://github.com/fingernoodle78) -- Idea Generation
 
 
 ## Demoing
