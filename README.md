@@ -1,5 +1,9 @@
 # Crawford Game Jam Repo for TeamGD
 
+Game Name: The Temporal Shift
+
+A 2D puzzle platformer made in Godot
+
 Theme : 'INTO THE FUTURE'
 
 **THE IDEA**
@@ -24,8 +28,10 @@ Download the latest stable release for this game in the [releases](https://githu
 
 ## Controls
 
-WASD --> Movement
-Shift --> Dash
-T or J --> Time Shift
+WASD = Movement
+
+Shift = Dash
+
+T or J = Time Shift
 
 **Feel free to share any and all constructive feedback**
